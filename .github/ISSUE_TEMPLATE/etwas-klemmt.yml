@@ -1,0 +1,50 @@
+name: Etwas klemmt
+description: Installation, VS Code, Prüfen, Baum oder Heft tun nicht, was sie sollen.
+labels: [klemmt]
+body:
+  - type: dropdown
+    id: wobei
+    attributes:
+      label: Wobei?
+      options:
+        - Installation
+        - Erweiterung in VS Code
+        - Prüfen bei einem Türchen
+        - Baum
+        - Heft
+        - Etwas anderes
+    validations:
+      required: true
+  - type: input
+    id: tuerchen
+    attributes:
+      label: Türchen
+      placeholder: z. B. 6
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      options:
+        - Windows 11
+        - Windows 10
+        - Linux
+        - Etwas anderes
+  - type: input
+    id: fassung
+    attributes:
+      label: Fassung
+      description: Steht in VS Code unter Erweiterungen → Der schlafende Baum.
+      placeholder: z. B. 1.0.0
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist passiert?
+      description: Was du getan hast und was stattdessen kam. Bildschirmfotos kannst du hineinziehen.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Dein Code
+      description: "Geht es ums Prüfen: der Inhalt deiner `loesung.py`."
+      render: python

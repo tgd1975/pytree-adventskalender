@@ -1,0 +1,10 @@
+name: Frage oder Idee
+description: Etwas ist unklar, oder du hast einen Vorschlag.
+labels: [frage]
+body:
+  - type: textarea
+    id: frage
+    attributes:
+      label: Worum geht es?
+    validations:
+      required: true

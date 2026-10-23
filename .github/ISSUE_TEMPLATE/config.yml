@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Häufige Fragen
+    url: https://github.com/tgd1975/pytree-adventskalender/blob/main/FAQ.md
+    about: Vielleicht steht die Antwort schon hier.
