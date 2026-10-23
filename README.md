@@ -7,8 +7,8 @@ aber wecken kann ihn nur, wer mit ihm in seiner Sprache spricht. Vierundzwanzig 
 Aufgabe in Python. Wer sie löst, bekommt einen Code, und der Baum erwacht ein Stück weiter. Bis er am 24. Dezember
 ganz leuchtet.
 
-**Du hast ein Heft mit einem schlafenden Baum in der Hand, und Türchen 1 hat dich hierher geschickt? Dann bist du
-hier genau richtig.**
+**Vor dir steht ein schlafender Baum, und das Heft oder der Zettel dazu hat dich hierher geschickt? Dann bist du hier
+genau richtig.**
 
 ## Die Werkstatt einrichten
 
@@ -23,9 +23,9 @@ Am einfachsten geht es mit einer Installationsdatei. Sie holt VS Code, Python un
   herunterladen, mit **Strg+Alt+T** ein Terminal öffnen, `bash Downloads/installieren-ubuntu.sh` eintippen und
   **Enter** drücken.
 
-Danach startest du VS Code mit dem Symbol **Der schlafende Baum** auf dem Desktop. Wie es weitergeht, steht im
-Heft. Gibt es im Dezember eine neue Fassung, führst du die Installationsdatei einfach noch einmal aus. Deine Lösungen
-und dein Fortschritt bleiben.
+Danach startest du VS Code mit dem Symbol **Der schlafende Baum** auf dem Desktop. Wie es weitergeht, zeigt dir
+die Erweiterung. Gibt es im Dezember eine neue Fassung, führst du die Installationsdatei einfach noch einmal aus. Deine
+Lösungen und dein Fortschritt bleiben.
 
 Von Hand geht es auch: Die Erweiterung `pytree-adventskalender-….vsix` liegt unter
 [Releases](https://github.com/tgd1975/pytree-adventskalender/releases/latest) bei den **Assets**, dazu braucht es
