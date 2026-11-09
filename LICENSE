@@ -1,0 +1,26 @@
+Der schlafende Baum – ein Adventskalender, der Python beibringt
+
+© 2026 Tobias Gawron-Deutsch. Alle Rechte vorbehalten.
+
+Texte, Bilder und Gestaltung dieses Repositorys und der Seite https://tgd1975.github.io/pytree-adventskalender/ sowie
+die Dateien der Releases (Erweiterung und Installationsdateien) sind urheberrechtlich geschützt.
+
+Erlaubt ist:
+
+- die Erweiterung und die Installationsdateien herunterzuladen, auszuführen und für dich selbst zu nutzen, auch auf
+  mehreren eigenen Rechnern;
+- die Installationsdateien unverändert weiterzugeben;
+- auf diese Seite und dieses Repository zu verlinken.
+
+Alles andere – Texte, Bilder, Aufgaben oder die Erweiterung ganz oder in Teilen veröffentlichen, verändert verbreiten
+oder verkaufen – nur mit schriftlicher Erlaubnis des Rechteinhabers. Was GitHub in seinen Nutzungsbedingungen für
+öffentliche Repositorys erlaubt (ansehen und auf GitHub forken), bleibt davon unberührt.
+
+Alles wird ohne Gewähr bereitgestellt, soweit das Gesetz es zulässt.
+
+Ausnahmen:
+
+- Schrift Alegreya (assets/schrift/): SIL Open Font License 1.1, Text in assets/schrift/OFL.txt.
+- Die Erweiterung bringt ihre Lizenz selbst mit (LICENSE.txt in der .vsix), dazu die Lizenzen der Bestandteile Dritter
+  (THIRD_PARTY_LICENSES.md).
+- Die Releases bis einschließlich v0.5.0 stehen unter der MIT-Lizenz, deren Text in ihrer .vsix liegt.
