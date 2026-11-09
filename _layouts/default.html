@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- assign seitentitel = page.title | remove: "🎄" | strip -%}
+  {%- if page.url == "/" %}
+  <title>{{ site.title }} – {{ site.description }}</title>
+  {%- else %}
+  <title>{{ seitentitel }} – {{ site.title }}</title>
+  {%- endif %}
+  <meta name="description" content="{{ site.description }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="{{ '/assets/stern.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/seite.css' | relative_url }}">
+</head>
+<body{% if page.url == "/" %} class="start"{% endif %}>
+  <header class="kopf">
+    <a class="marke" href="{{ '/' | relative_url }}">Der schlafende Baum</a>
+    <nav>
+      <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} aria-current="page"{% endif %}>Start</a>
+      <a href="{{ '/FAQ.html' | relative_url }}"{% if page.url == "/FAQ.html" %} aria-current="page"{% endif %}>Häufige Fragen</a>
+      <a href="https://github.com/tgd1975/pytree-adventskalender/issues/new/choose">Issue schreiben</a>
+    </nav>
+  </header>
+  {%- if page.url == "/" %}
+  <div class="bild"><img src="{{ '/assets/baum.svg' | relative_url }}" alt="Ein kleiner Baum schläft auf einem verschneiten Hügel, darüber Mond und Sterne, daneben eine kleine Schlange." width="720" height="360"></div>
+  {%- endif %}
+  <main>
+{{ content }}
+  </main>
+  <footer class="fuss">
+    <span>© 2026 Tobias Gawron-Deutsch · Alle Rechte vorbehalten</span>
+    <a href="https://github.com/tgd1975/pytree-adventskalender/releases">Fassungen</a>
+    <a href="https://github.com/tgd1975/pytree-adventskalender">auf GitHub</a>
+    <span>Schrift Alegreya: <a href="{{ '/assets/schrift/OFL.txt' | relative_url }}">SIL Open Font License 1.1</a></span>
+  </footer>
+</body>
+</html>

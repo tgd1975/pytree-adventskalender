@@ -1,0 +1,22 @@
+# GitHub Pages: README.md wird die Startseite, FAQ.md die Seite FAQ.html – beide im eigenen Layout.
+title: Der schlafende Baum
+description: Ein Adventskalender, der Python beibringt
+lang: de
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+plugins:
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+relative_links:
+  enabled: true
+titles_from_headings:
+  strip_title: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -1,0 +1,111 @@
+/* Der schlafende Baum – Farben wie Heft und Schachtel (Tanne, Papier, Gold, Rot) */
+@font-face { font-family: "Alegreya"; src: url("schrift/alegreya.woff2") format("woff2"); font-weight: 400 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Alegreya"; src: url("schrift/alegreya-kursiv.woff2") format("woff2"); font-weight: 400 900; font-style: italic; font-display: swap; }
+
+:root {
+  --grund: #f3f1ec;
+  --karte: #fbf8ef;
+  --schrift: #1d1d1d;
+  --leise: #5e5a52;
+  --tanne: #1f5c3a;
+  --verweis: #1f5c3a;
+  --gold: #b8860b;
+  --rot: #a3262a;
+  --linie: #ddd6c6;
+  --code: #ebe6d9;
+  --knopf: #1f5c3a;
+  --knopf-schrift: #fbf8ef;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --grund: #14161a;
+    --karte: #1c1f24;
+    --schrift: #e8e4da;
+    --leise: #a9a49a;
+    --tanne: #7fc29b;
+    --verweis: #9fd3b4;
+    --gold: #e0b04a;
+    --rot: #e07a6e;
+    --linie: #2e333a;
+    --code: #262a31;
+    --knopf: #2f7a50;
+    --knopf-schrift: #f5f8fb;
+  }
+  .bild img { background: radial-gradient(ellipse at 50% 30%, #1f2733 0%, transparent 70%); }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--grund);
+  color: var(--schrift);
+  font: 1.125rem/1.6 "Alegreya", Georgia, "Times New Roman", serif;
+}
+
+.kopf, main, .fuss { max-width: 44rem; margin: 0 auto; padding: 0 1.25rem; }
+.kopf {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .5rem 1.5rem;
+  padding-top: 1.25rem; padding-bottom: .75rem; border-bottom: 1px solid var(--linie);
+}
+.marke { font-weight: 700; font-size: 1.15rem; color: var(--tanne); text-decoration: none; }
+.kopf nav { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; font-size: 1rem; }
+.kopf nav a { color: var(--leise); text-decoration: none; }
+.kopf nav a:hover, .kopf nav a[aria-current] { color: var(--tanne); }
+.kopf nav a[aria-current] { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: .3em; }
+
+.bild { max-width: 44rem; margin: 1.5rem auto 0; padding: 0 1.25rem; }
+.bild img { display: block; width: 100%; height: auto; border-radius: .75rem; }
+
+main { padding-top: 1rem; padding-bottom: 3rem; }
+h1, h2, h3 { color: var(--tanne); line-height: 1.2; font-weight: 700; }
+h1 { font-size: 2.6rem; margin: 1rem 0 .25rem; }
+.start h1 { text-align: center; }
+.start h1 + p { text-align: center; font-size: 1.3rem; color: var(--leise); margin-top: 0; }
+h2 { font-size: 1.6rem; margin: 2.5rem 0 .75rem; padding-bottom: .3rem; border-bottom: 1px solid var(--linie); }
+h2::before { content: "✦ "; color: var(--gold); font-size: .8em; }
+h3 { font-size: 1.2rem; margin: 1.75rem 0 .4rem; }
+p, ul, ol { margin: 0 0 1rem; }
+ul { padding-left: 1.25rem; }
+li { margin-bottom: .6rem; }
+li::marker { color: var(--gold); }
+strong { font-weight: 700; }
+
+a { color: var(--verweis); text-decoration-thickness: 1px; text-underline-offset: .18em; }
+a:hover { color: var(--rot); }
+a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 3px; }
+
+code {
+  font: .85em/1.4 ui-monospace, "DejaVu Sans Mono", Consolas, monospace;
+  background: var(--code); padding: .1em .35em; border-radius: .3em; white-space: nowrap;
+}
+
+/* Die Installationsdateien als Knöpfe */
+a[href$=".cmd"], a[href$=".sh"] {
+  display: inline-block; margin: .35rem 0 .25rem;
+  padding: .45rem 1rem; border-radius: .5rem;
+  background: var(--knopf); color: var(--knopf-schrift);
+  font-weight: 700; text-decoration: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+}
+a[href$=".cmd"]::before, a[href$=".sh"]::before { content: "⬇ "; }
+a[href$=".cmd"]:hover, a[href$=".sh"]:hover { background: var(--rot); color: #fff; }
+
+/* Der Absatz „Vor dir steht …“ als Karte */
+.start h1 + p + p + p {
+  background: var(--karte); border-left: 4px solid var(--gold);
+  padding: .9rem 1.1rem; border-radius: .4rem;
+}
+
+.fuss {
+  display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; justify-content: center;
+  padding-top: 1.25rem; padding-bottom: 2rem; border-top: 1px solid var(--linie);
+  font-size: .95rem; color: var(--leise);
+}
+.fuss a { color: var(--leise); }
+
+@media (max-width: 34rem) {
+  body { font-size: 1.05rem; }
+  h1 { font-size: 2rem; }
+  .kopf { justify-content: center; text-align: center; }
+}
