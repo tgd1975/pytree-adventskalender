@@ -1,3 +1,6 @@
+---
+redirect_from: /FAQ.html
+---
 # Häufige Fragen
 
 Steht deine Frage nicht dabei oder klemmt etwas, dann schreib ein

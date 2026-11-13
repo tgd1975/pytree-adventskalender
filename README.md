@@ -1,40 +1,18 @@
-# 🎄 Der schlafende Baum
+# 🎄 pytree
 
-*Ein Adventskalender, der Python beibringt.*
+*Ein Baum, viele Hefte.*
 
-Irgendwo steht ein kleiner Baum aus Leiterplatten und schläft. Er hat dreißig Lichter, einen Stern und eine Stimme –
-aber wecken kann ihn nur, wer mit ihm in seiner Sprache spricht. Vierundzwanzig Türchen, jeden Tag eine kleine
-Aufgabe in Python. Wer sie löst, bekommt einen Code, und der Baum erwacht ein Stück weiter. Bis er am 24. Dezember
-ganz leuchtet.
+Ein kleiner Baum aus Leiterplatten, mit dreißig Lichtern, einem Stern und einer Stimme. Zu ihm gehören Hefte, jedes
+ein Adventskalender für sich: 24 Tage, jeden Tag ein Code, den du hinten am Baum einstellst.
 
-**Vor dir steht ein schlafender Baum, und das Heft oder der Zettel dazu hat dich hierher geschickt? Dann bist du hier
-genau richtig.**
+**Alles Weitere steht auf der Seite: [tgd1975.github.io/pytree-adventskalender](https://tgd1975.github.io/pytree-adventskalender/)**
 
-## Die Werkstatt einrichten
+- [Der schlafende Baum](https://tgd1975.github.io/pytree-adventskalender/schlafender-baum/) – Python, Band 1:
+  die Werkstatt einrichten, Häufige Fragen
+- [Der wachende Baum](https://tgd1975.github.io/pytree-adventskalender/wachender-baum/) – Python, Band 2, kommt noch
+- [Der strahlende Baum](https://tgd1975.github.io/pytree-adventskalender/strahlender-baum/) – Python, Band 3, kommt noch
+- [Der singende Baum](https://tgd1975.github.io/pytree-adventskalender/singender-baum/) – Malen und Singen, kommt noch
 
-Am einfachsten geht es mit einer Installationsdatei. Sie holt VS Code, Python und die Erweiterung, die dich durch die
-24 Türchen begleitet, in einen eigenen Ordner. Administratorrechte braucht es dafür nicht.
-
-- **Windows:**
-  [installieren-windows.cmd](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/installieren-windows.cmd)
-  herunterladen und doppelklicken. Warnt Windows: **Weitere Informationen**, dann **Trotzdem ausführen**.
-- **Linux:**
-  [installieren-ubuntu.sh](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/installieren-ubuntu.sh)
-  herunterladen, mit **Strg+Alt+T** ein Terminal öffnen, `bash Downloads/installieren-ubuntu.sh` eintippen und
-  **Enter** drücken.
-
-Danach startest du VS Code mit dem Symbol **Der schlafende Baum** auf dem Desktop. Wie es weitergeht, zeigt dir
-die Erweiterung. Gibt es im Dezember eine neue Fassung, führst du die Installationsdatei einfach noch einmal aus. Deine
-Lösungen und dein Fortschritt bleiben.
-
-Von Hand geht es auch: Die Erweiterung `pytree-adventskalender-….vsix` liegt unter
-[Releases](https://github.com/tgd1975/pytree-adventskalender/releases/latest) bei den **Assets**, dazu braucht es
-[VS Code](https://code.visualstudio.com/). Was die Installationsdateien genau tun, steht in ihren ersten Zeilen.
-
-Läuft unter Windows und Linux.
-
-## Wenn etwas klemmt
-
-Viele Antworten stehen schon unter [Häufige Fragen](FAQ.md). Klemmt etwas, ist etwas unklar oder hast du eine Idee,
-schreib auf GitHub ein [Issue](https://github.com/tgd1975/pytree-adventskalender/issues/new/choose), so heißen dort
-die Meldungen.
+Klemmt etwas, ist etwas unklar oder hast du eine Idee: ein
+[Issue](https://github.com/tgd1975/pytree-adventskalender/issues/new/choose). Die Erweiterung für VS Code und die
+Installationsdateien liegen unter [Releases](https://github.com/tgd1975/pytree-adventskalender/releases/latest).

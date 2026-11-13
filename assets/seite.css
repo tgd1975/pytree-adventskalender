@@ -1,8 +1,25 @@
-/* Der schlafende Baum – Farben wie Heft und Schachtel (Tanne, Papier, Gold, Rot) */
+/* pytree – eine Seite, je Heft ein Bereich. Layout, Schrift und Bausteine sind für alle gleich; ein Bereich setzt nur
+   die dreizehn Farbrollen neu, hell und dunkel. Die Werte stehen in der Basis der Gestaltung von pytree (Abschnitt 9,
+   „Die Seite im Netz“, EG-14, GS-11) und werden dort gepflegt; die Klasse setzt das Layout aus dem Bereich der Seite. */
 @font-face { font-family: "Alegreya"; src: url("schrift/alegreya.woff2") format("woff2"); font-weight: 400 900; font-style: normal; font-display: swap; }
 @font-face { font-family: "Alegreya"; src: url("schrift/alegreya-kursiv.woff2") format("woff2"); font-weight: 400 900; font-style: italic; font-display: swap; }
 
-:root {
+:root, .bereich-allgemein {
+  --grund: #ffffff;
+  --karte: #f3f1ec;
+  --schrift: #1d1d1d;
+  --leise: #555555;
+  --tanne: #1f5c3a;
+  --verweis: #1f5c3a;
+  --gold: #1f5c3a;
+  --rot: #a3262a;
+  --linie: #e4e0d6;
+  --code: #ebe6d9;
+  --knopf: #1f5c3a;
+  --knopf-schrift: #ffffff;
+  --knopf-zeiger: #a3262a;
+}
+.bereich-schlafender-baum {
   --grund: #f3f1ec;
   --karte: #fbf8ef;
   --schrift: #1d1d1d;
@@ -15,9 +32,85 @@
   --code: #ebe6d9;
   --knopf: #1f5c3a;
   --knopf-schrift: #fbf8ef;
+  --knopf-zeiger: #a3262a;
+}
+.bereich-wachender-baum {
+  --grund: #fbf8ef;
+  --karte: #fbf1d6;
+  --schrift: #1d1d1d;
+  --leise: #5e5a52;
+  --tanne: #1f5c3a;
+  --verweis: #1f5c3a;
+  --gold: #a3262a;
+  --rot: #6e1a1d;
+  --linie: #e4dcc8;
+  --code: #f1ead6;
+  --knopf: #1f5c3a;
+  --knopf-schrift: #fbf8ef;
+  --knopf-zeiger: #a3262a;
+}
+.bereich-strahlender-baum {
+  --grund: #fbf1d6;
+  --karte: #ffffff;
+  --schrift: #1d1d1d;
+  --leise: #5e5a52;
+  --tanne: #1f5c3a;
+  --verweis: #1f5c3a;
+  --gold: #4a64a8;
+  --rot: #a3262a;
+  --linie: #e6d7ae;
+  --code: #f1e4bd;
+  --knopf: #1f5c3a;
+  --knopf-schrift: #fbf8ef;
+  --knopf-zeiger: #a3262a;
+}
+.bereich-singender-baum {
+  --grund: #f8f5fb;
+  --karte: #ffffff;
+  --schrift: #1d1d1d;
+  --leise: #5f586b;
+  --tanne: #1f5c3a;
+  --verweis: #1f5c3a;
+  --gold: #6a4fa8;
+  --rot: #a3262a;
+  --linie: #ddd5e8;
+  --code: #ece6f3;
+  --knopf: #6a4fa8;
+  --knopf-schrift: #ffffff;
+  --knopf-zeiger: #a3262a;
+}
+.bereich-eingeschneit {
+  --grund: #f7fafc;
+  --karte: #ecf3fa;
+  --schrift: #1d1d1d;
+  --leise: #5d6876;
+  --tanne: #1f5c3a;
+  --verweis: #1f5c3a;
+  --gold: #a3262a;
+  --rot: #6e1a1d;
+  --linie: #c3d0dc;
+  --code: #e1e9f1;
+  --knopf: #a3262a;
+  --knopf-schrift: #ffffff;
+  --knopf-zeiger: #6e1a1d;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root, .bereich-allgemein {
+    --grund: #14161a;
+    --karte: #1c1f24;
+    --schrift: #e8e4da;
+    --leise: #a9a49a;
+    --tanne: #7fc29b;
+    --verweis: #9fd3b4;
+    --gold: #7fc29b;
+    --rot: #e07a6e;
+    --linie: #2e333a;
+    --code: #262a31;
+    --knopf: #2f7a50;
+    --knopf-schrift: #f5f8fb;
+    --knopf-zeiger: #a3262a;
+  }
+  .bereich-schlafender-baum {
     --grund: #14161a;
     --karte: #1c1f24;
     --schrift: #e8e4da;
@@ -30,12 +123,76 @@
     --code: #262a31;
     --knopf: #2f7a50;
     --knopf-schrift: #f5f8fb;
+    --knopf-zeiger: #a3262a;
   }
+  .bereich-wachender-baum {
+    --grund: #1a1712;
+    --karte: #25211a;
+    --schrift: #e8e4da;
+    --leise: #a9a49a;
+    --tanne: #7fc29b;
+    --verweis: #9fd3b4;
+    --gold: #e07a6e;
+    --rot: #f2b0a7;
+    --linie: #38322a;
+    --code: #2f2a22;
+    --knopf: #2f7a50;
+    --knopf-schrift: #f5f8fb;
+    --knopf-zeiger: #a3262a;
+  }
+  .bereich-strahlender-baum {
+    --grund: #12151b;
+    --karte: #1a1f29;
+    --schrift: #e8e4da;
+    --leise: #a9a49a;
+    --tanne: #7fc29b;
+    --verweis: #9fd3b4;
+    --gold: #7d97d8;
+    --rot: #e07a6e;
+    --linie: #2b313c;
+    --code: #232833;
+    --knopf: #2f7a50;
+    --knopf-schrift: #f5f8fb;
+    --knopf-zeiger: #a3262a;
+  }
+  .bereich-singender-baum {
+    --grund: #1b1724;
+    --karte: #261f33;
+    --schrift: #ece8f2;
+    --leise: #aaa3b8;
+    --tanne: #7fc29b;
+    --verweis: #9fd3b4;
+    --gold: #b7a2ea;
+    --rot: #e07a6e;
+    --linie: #3a3247;
+    --code: #2c2539;
+    --knopf: #6a4fa8;
+    --knopf-schrift: #f5f8fb;
+    --knopf-zeiger: #a3262a;
+  }
+  .bereich-eingeschneit {
+    --grund: #2e3a37;
+    --karte: #37443f;
+    --schrift: #f3f1ec;
+    --leise: #b4bdb9;
+    --tanne: #a9c8b6;
+    --verweis: #c2dccd;
+    --gold: #e8897d;
+    --rot: #f2b0a7;
+    --linie: #4a5853;
+    --code: #26302e;
+    --knopf: #a3262a;
+    --knopf-schrift: #f3f1ec;
+    --knopf-zeiger: #6e1a1d;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
   .bild img { background: radial-gradient(ellipse at 50% 30%, #1f2733 0%, transparent 70%); }
 }
 
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; background: var(--grund); }
 body {
   margin: 0;
   background: var(--grund);
@@ -89,13 +246,31 @@ a[href$=".cmd"], a[href$=".sh"] {
   box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
 }
 a[href$=".cmd"]::before, a[href$=".sh"]::before { content: "⬇ "; }
-a[href$=".cmd"]:hover, a[href$=".sh"]:hover { background: var(--rot); color: #fff; }
+a[href$=".cmd"]:hover, a[href$=".sh"]:hover { background: var(--knopf-zeiger); color: var(--knopf-schrift); }
 
-/* Der Absatz „Vor dir steht …“ als Karte */
-.start h1 + p + p + p {
+/* Der Absatz „Vor dir steht …“ auf der Seite von Heft 1 als Karte */
+.bereich-schlafender-baum .start h1 + p + p + p {
   background: var(--karte); border-left: 4px solid var(--gold);
   padding: .9rem 1.1rem; border-radius: .4rem;
 }
+
+/* Die Hefte auf der allgemeinen Seite, je eine Karte */
+.hefte { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1rem; margin: 1rem 0 1.5rem; }
+.heft {
+  display: flex; flex-direction: column; background: var(--karte); border: 1px solid var(--linie);
+  border-top: 4px solid var(--gold); border-radius: .5rem; overflow: hidden; color: inherit; text-decoration: none;
+}
+a.heft:hover { border-color: var(--gold); }
+a.heft:hover .heft-name { color: var(--rot); }
+a.heft:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.heft img { display: block; width: 100%; height: auto; aspect-ratio: 2 / 1; }
+.heft-text { padding: .7rem 1rem .9rem; }
+.heft-name { display: block; font-weight: 700; font-size: 1.2rem; color: var(--tanne); line-height: 1.25; }
+.heft-art { display: block; font-size: .95rem; color: var(--leise); margin: .1rem 0 .4rem; }
+.heft-satz { display: block; font-size: 1rem; line-height: 1.45; }
+.heft.leer { min-height: 8rem; justify-content: center; text-align: center; border-top-style: dashed; }
+.heft.leer .heft-art { margin: 0; font-size: 1.05rem; }
+.kommt { font-style: italic; color: var(--leise); }
 
 .fuss {
   display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; justify-content: center;

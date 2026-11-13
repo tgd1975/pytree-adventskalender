@@ -1,22 +1,69 @@
-# GitHub Pages: README.md wird die Startseite, FAQ.md die Seite FAQ.html – beide im eigenen Layout.
-title: Der schlafende Baum
-description: Ein Adventskalender, der Python beibringt
+# GitHub Pages: index.md ist die allgemeine Seite, darunter je Heft ein Ordner mit seiner Unterseite (MD-69, MD-70).
+# Jeder Bereich setzt nur die Farbrollen in assets/seite.css neu (EG-14, GS-11); welcher Bereich, steht unten.
+title: pytree
+description: Ein Baum, viele Hefte
 lang: de
 markdown: kramdown
 kramdown:
   input: GFM
   auto_ids: true
 plugins:
-  - jekyll-readme-index
   - jekyll-relative-links
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
+  - jekyll-redirect-from
 relative_links:
   enabled: true
 titles_from_headings:
   strip_title: false
+# README.md ist die kurze Fassung für github.com, nicht Teil der Seite
+exclude:
+  - README.md
+  - LICENSE
+# je Bereich: Farbschema (bereich), Name im Kopf (marke), Startseite des Bereichs (heim), Satz für Suchmaschinen
 defaults:
   - scope:
       path: ""
     values:
       layout: default
+      bereich: allgemein
+      marke: pytree
+      heim: /
+      beschreibung: Ein Baum aus Leiterplatten und die Adventskalender dazu
+  - scope:
+      path: schlafender-baum
+    values:
+      bereich: schlafender-baum
+      marke: Der schlafende Baum
+      heim: /schlafender-baum/
+      beschreibung: Ein Adventskalender, der Python beibringt
+      faq: true
+  - scope:
+      path: wachender-baum
+    values:
+      bereich: wachender-baum
+      marke: Der wachende Baum
+      heim: /wachender-baum/
+      beschreibung: Band 2 des Python-Adventskalenders
+  - scope:
+      path: strahlender-baum
+    values:
+      bereich: strahlender-baum
+      marke: Der strahlende Baum
+      heim: /strahlender-baum/
+      beschreibung: Band 3 des Python-Adventskalenders
+  - scope:
+      path: singender-baum
+    values:
+      bereich: singender-baum
+      marke: Der singende Baum
+      heim: /singender-baum/
+      beschreibung: Ein Mal-Adventskalender, bei dem der Baum singt
+  # Platzhalter bis zum Verschenken: ohne Titel, im Schema der allgemeinen Seite (MD-72, EG-14)
+  - scope:
+      path: eingeschneit
+    values:
+      bereich: allgemein
+      marke: pytree
+      heim: /
+      beschreibung: Kommt noch
