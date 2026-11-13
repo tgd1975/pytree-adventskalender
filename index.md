@@ -50,6 +50,41 @@ Hat dich ein Heft hierher geschickt? Hier geht es zu seiner Seite.
 </div>
 </div>
 
+## Welches Heft ist eingestellt?
+
+Gleich nach dem Einstecken zeigt der Baum 5 Sekunden lang, zu welchem Heft er gerade gehört. Alles ist aus, auch der
+Stern. Nur die zwei Lichterketten leuchten ruhig, dazu drei einzelne Lichter, bei jedem Heft andere.
+
+<div class="startbilder">
+<figure>
+  <img src="assets/startbild/schlafender-baum.svg" alt="Startbild: beide Lichterketten, dazu zwei rote Lichter in der zweiten Etage, links und in der Mitte, und ein grünes rechts in der dritten." width="264" height="358">
+  <figcaption><b>Der schlafende Baum</b> Schalter 1 · <code>10000000</code></figcaption>
+</figure>
+<figure>
+  <img src="assets/startbild/wachender-baum.svg" alt="Startbild: beide Lichterketten, dazu ein grünes Licht rechts in der zweiten Etage, ein grünes links in der dritten und ein rotes links in der vierten." width="264" height="358">
+  <figcaption><b>Der wachende Baum</b> Schalter 2 · <code>01000000</code></figcaption>
+</figure>
+<figure>
+  <img src="assets/startbild/strahlender-baum.svg" alt="Startbild: beide Lichterketten, dazu drei rote Lichter: rechts in der dritten Etage, rechts in der vierten und ganz oben an der Spitze." width="264" height="358">
+  <figcaption><b>Der strahlende Baum</b> Schalter 3 · <code>00100000</code></figcaption>
+</figure>
+<figure>
+  <img src="assets/startbild/singender-baum.svg" alt="Startbild: beide Lichterketten, dazu ein blaues Licht rechts unten, ein rotes links in der dritten Etage und ein gelbes links in der vierten." width="264" height="358">
+  <figcaption><b>Der singende Baum</b> Schalter 5 · <code>00001000</code></figcaption>
+</figure>
+</div>
+
+## Das Heft wechseln
+
+1. Den Stecker ziehen.
+2. Beide Knöpfe gedrückt halten und den Stecker wieder einstecken. Sobald die zwei Lichterketten abwechselnd blinken,
+   loslassen: Der Baum ist im **Wahlmodus**.
+3. Den Code des Hefts an den Schaltern einstellen, er steht oben unter seinem Startbild, und **Bestätigen** drücken.
+   Der Baum startet neu, zeigt das Startbild des Hefts und dann, wie weit er darin ist.
+
+Jedes Heft behält seinen eigenen Stand. Kennt der Baum einen Code nicht, blinkt der Stern dreimal rot, dazu ein tiefer
+Ton, und er bleibt im Wahlmodus. Wer ohne Wahl hinaus will, zieht den Stecker; geändert ist dann nichts.
+
 ## Was für alle Hefte gilt
 
 - **Strom:** Der Baum läuft an jedem USB-Netzteil und an jedem Rechner, mit dem Kabel in der USB-C-Buchse hinten im

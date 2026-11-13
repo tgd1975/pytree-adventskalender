@@ -271,6 +271,15 @@ a.heft:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 .heft.leer { min-height: 8rem; justify-content: center; text-align: center; border-top-style: dashed; }
 .heft.leer .heft-art { margin: 0; font-size: 1.05rem; }
 .kommt { font-style: italic; color: var(--leise); }
+/* Startbilder (MD-76): das Bild ist eine Zeichnung mit dunklen Linien und bleibt deshalb auch im Dunkeln auf hellem
+   Papier, wie im Heft */
+.startbilder { display: grid; grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr)); gap: 1rem; margin: 1rem 0 1.5rem; }
+.startbilder figure {
+  margin: 0; background: var(--karte); border: 1px solid var(--linie); border-radius: .5rem; overflow: hidden;
+}
+.startbilder img { display: block; width: 100%; height: auto; background: #fbf8ef; padding: .6rem .6rem 0; box-sizing: border-box; }
+.startbilder figcaption { padding: .5rem .8rem .7rem; font-size: .95rem; line-height: 1.4; }
+.startbilder figcaption b { display: block; color: var(--tanne); }
 
 .fuss {
   display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; justify-content: center;
