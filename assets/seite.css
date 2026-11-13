@@ -281,6 +281,29 @@ a.heft:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 .startbilder figcaption { padding: .5rem .8rem .7rem; font-size: .95rem; line-height: 1.4; }
 .startbilder figcaption b { display: block; color: var(--tanne); }
 
+/* Der singende Baum: die 24 Tage als Karten – links der Baum des Tages, rechts Bild, Zahl, Titel, das Lied zum
+   Anhören und die Idee zum Malen (Gestaltung des singenden Baums, Abschnitt 9) */
+.tage { display: grid; gap: 1rem; margin: 1rem 0 1.5rem; }
+.tag {
+  display: grid; grid-template-columns: 6.5rem 1fr; gap: 1rem; align-items: start; background: var(--karte);
+  border: 1px solid var(--linie); border-left: 4px solid var(--gold); border-radius: .5rem; padding: .8rem 1rem;
+}
+.tag-baum img { display: block; width: 100%; height: auto; }
+.tag-text { position: relative; min-height: 5rem; padding-right: 5.5rem; }
+.tag-bild { position: absolute; right: 0; top: 0; width: 5rem; height: 5rem; }
+.tag-zahl {
+  display: inline-block; min-width: 2rem; padding: 0 .4rem; margin-right: .4rem; border-radius: 1rem; text-align: center;
+  background: var(--gold); color: var(--knopf-schrift); font-weight: 700;
+}
+.tag-titel { font-weight: 700; font-size: 1.2rem; color: var(--tanne); line-height: 1.25; }
+.tag audio { display: block; width: 100%; max-width: 20rem; margin: .6rem 0 .4rem; }
+.tag-anregung { display: block; font-style: italic; color: var(--leise); font-size: 1rem; line-height: 1.4; }
+@media (max-width: 34rem) {
+  .tag { grid-template-columns: 4.5rem 1fr; }
+  .tag-text { padding-right: 0; }
+  .tag-bild { position: static; float: right; width: 3.5rem; height: 3.5rem; margin: 0 0 .3rem .5rem; }
+}
+
 .fuss {
   display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; justify-content: center;
   padding-top: 1.25rem; padding-bottom: 2rem; border-top: 1px solid var(--linie);
