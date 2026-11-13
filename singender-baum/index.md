@@ -7,20 +7,22 @@ kopfbild_text: Der Baum singt auf einem verschneiten Hügel, um ihn Noten und Fl
 
 *Ein Mal-Adventskalender.*
 
-Ein Malheft mit 24 leeren Seiten, eine für jeden Tag. Jeder Tag hat einen Code. Stellst du ihn am Baum ein, geht ein
-Licht mehr an, und der Baum singt das Lied des Tages, jeden Tag ein anderes Weihnachtslied. Was du dazu malst,
-entscheidest du. Am 24. ist aus dem Heft ein eigenes Buch mit 24 Bildern geworden.
+Ein Malheft mit 24 leeren Seiten, eine für jeden Tag. Jeder Tag hat einen Code. Stellt ihn jemand ab 14 am Baum ein,
+geht ein Licht mehr an, und der Baum singt das Lied des Tages, jeden Tag ein anderes. Was das Kind dazu malt,
+entscheidet es. Am 24. ist aus dem Heft ein eigenes Buch mit 24 Bildern geworden.
+
+Malen kann jedes Alter. Den Baum bedient, wer schon 14 ist.
 
 ## So geht's
 
-1. Schlag im Malheft die Seite von heute auf. Die Zahl im Stern sagt dir, welcher Tag es ist.
-2. Stell am Baum die acht Schalter so, wie das Bild unten in der Ecke sie zeigt. Wo ein Stern steht, ist der Hebel oben.
-3. Drück den Knopf ohne Zeichen. Dann schaut der Baum nach, ob alles stimmt.
+1. Schlagt im Malheft die Seite von heute auf. Die Zahl im Stern sagt, welcher Tag es ist.
+2. Wer schon 14 ist, stellt am Baum die acht Schalter so, wie das Bild unten in der Ecke sie zeigt. Wo ein Stern steht, ist der Hebel oben.
+3. Dann den Knopf ohne Zeichen drücken. Der Baum schaut nach, ob alles stimmt.
 4. Der Baum freut sich: Alle Lichter tanzen, und er singt das Lied von heute. Danach brennt ein Licht mehr.
-5. Jetzt malst du, was dir zum Lied einfällt, oder etwas ganz anderes.
-6. Noch einmal hören? Drück den Knopf mit der Note.
+5. Jetzt wird gemalt: was einem zum Lied einfällt, oder etwas ganz anderes. Malen kann jedes Alter.
+6. Noch einmal hören? Dafür ist der Knopf mit der Note.
 
-Stimmen die Schalter, piept der Baum, und das neue Licht blinkt dreimal. Dann tanzen alle Lichter, und er singt das Lied von heute. Danach brennt ein Licht mehr als gestern, und der Stern wandert ein Stück von Blau nach Orange. Stimmen sie nicht, blinkt der Stern dreimal rot; dann stellst du sie noch einmal ein. Hast du einen Tag ausgelassen, will der Baum zuerst dessen Code: Die Tage kommen der Reihe nach. Kennt er den Code schon, zwinkert das neueste Licht zweimal. Am 24. gehen die Lichter Etage für Etage an, der Stern wird golden, und der Baum singt das ganze „O Tannenbaum“. „Stille Nacht“ singt er dir mit dem Knopf mit der Note.
+Stimmen die Schalter, piept der Baum, und das neue Licht blinkt dreimal. Dann tanzen alle Lichter, und er singt das Lied von heute. Danach brennt ein Licht mehr als gestern, und der Stern wandert ein Stück von Blau nach Orange. Stimmen sie nicht, blinkt der Stern dreimal rot; dann die Schalter noch einmal einstellen. Ist ein Tag ausgelassen, will der Baum zuerst dessen Code: Die Tage kommen der Reihe nach. Kennt er den Code schon, zwinkert das neueste Licht zweimal. Am 24. gehen die Lichter Etage für Etage an, der Stern wird golden, und der Baum singt das ganze „O Tannenbaum“. „Stille Nacht“ singt er mit dem Knopf mit der Note.
 
 ## Die 24 Tage
 
