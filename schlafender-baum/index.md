@@ -39,6 +39,14 @@ es [VS Code](https://code.visualstudio.com/). Was die Installationsdateien genau
 
 Läuft unter Windows und Linux.
 
+## Den Baum auf das erste Heft stellen
+
+Ein Baum kann auf jedem Heft der Reihe stehen. Bevor du den ersten Code eingibst: Stecker ziehen, beide Knöpfe
+halten und wieder einstecken, bis die Lichterketten abwechselnd blinken. Schalter auf `10000000`, **Bestätigen**.
+Jedes Heft behält dabei seinen eigenen Stand. So sieht der Baum aus, wenn er auf dem ersten Heft steht:
+
+<img src="../assets/startbild/schlafender-baum.svg" alt="Startbild: beide Lichterketten, dazu zwei rote Lichter in der zweiten Etage, links und in der Mitte, und ein grünes rechts in der dritten." width="264" height="358">
+
 ## Wenn etwas klemmt
 
 Viele Antworten stehen schon unter [Häufige Fragen](FAQ.md). Klemmt etwas, ist etwas unklar oder hast du eine Idee, schreib auf GitHub ein

@@ -40,7 +40,7 @@ Läuft unter Windows und Linux.
 
 ## Den Baum auf das dritte Heft stellen
 
-Noch steht der Baum auf dem zweiten Heft. Bevor du den ersten Code eingibst: Stecker ziehen, beide Knöpfe
+Ein Baum kann auf jedem Heft der Reihe stehen. Bevor du den ersten Code eingibst: Stecker ziehen, beide Knöpfe
 halten und wieder einstecken, bis die Lichterketten abwechselnd blinken. Schalter auf `00100000`, **Bestätigen**.
 Jedes Heft behält dabei seinen eigenen Stand. So sieht der Baum aus, wenn er auf dem dritten Heft steht:
 
