@@ -31,7 +31,7 @@ Hat dich ein Heft hierher geschickt? Hier geht es zu seiner Seite.
   <img src="assets/titel/strahlender-baum.svg" alt="Der Baum lacht unter einem strahlenden Stern, daneben die kleine Schlange." width="480" height="240">
   <span class="heft-text">
     <span class="heft-name">Der strahlende Baum</span>
-    <span class="heft-art">Python, Band 3 · kommt noch</span>
+    <span class="heft-art">Python, Band 3</span>
     <span class="heft-satz">In der Himmelswerkstatt werden Bäume nach Plänen gebaut. Im dritten Band schreibst du welche.</span>
   </span>
 </a>
