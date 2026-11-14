@@ -2,7 +2,7 @@
 kopfbild: /assets/titel/strahlender-baum.svg
 kopfbild_text: Der Baum lacht unter einem strahlenden Stern, daneben die kleine Schlange.
 ---
-<!-- ERZEUGT von aufgaben/3_strahlend/werkzeug/baue_seite.py im Repo pytree – nicht von Hand ändern, dort ändern und neu bauen. -->
+<!-- ERZEUGT von aufgaben/werkzeug/baue_seite.py --heft 3_strahlend im Repo pytree – nicht von Hand ändern, dort ändern und neu bauen. -->
 # Der strahlende Baum
 
 *Band 3 des Python-Adventskalenders.*
@@ -17,9 +17,8 @@ Was in den ersten beiden Heften stand, kannst du schon. Neu sind Klassen und Obj
 
 ## Die Werkstatt einrichten
 
-Am einfachsten geht es mit einer Installationsdatei. Sie holt VS Code, Python und die Erweiterung für dieses Heft in
-einen eigenen Ordner. Administratorrechte braucht es dafür nicht, und die Werkstätten der letzten Jahre bleiben, wie
-sie sind.
+Am einfachsten geht es mit einer Installationsdatei. Sie holt VS Code, Python und die Erweiterung für dieses Heft in einen eigenen
+Ordner. Administratorrechte braucht es dafür nicht, und die Werkstätten der letzten Jahre bleiben, wie sie sind.
 
 - **Windows:**
   [installieren-strahlender-baum-windows.cmd](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/installieren-strahlender-baum-windows.cmd)
@@ -41,9 +40,9 @@ Läuft unter Windows und Linux.
 
 ## Den Baum auf das dritte Heft stellen
 
-Noch steht der Baum auf dem zweiten Heft. Bevor du den ersten Code eingibst: Stecker ziehen, beide Knöpfe halten und
-wieder einstecken, bis die Lichterketten abwechselnd blinken. Schalter auf `00100000`, **Bestätigen**. Jedes Heft
-behält dabei seinen eigenen Stand. So sieht der Baum aus, wenn er auf dem dritten Heft steht:
+Noch steht der Baum auf dem zweiten Heft. Bevor du den ersten Code eingibst: Stecker ziehen, beide Knöpfe
+halten und wieder einstecken, bis die Lichterketten abwechselnd blinken. Schalter auf `00100000`, **Bestätigen**.
+Jedes Heft behält dabei seinen eigenen Stand. So sieht der Baum aus, wenn er auf dem dritten Heft steht:
 
 <img src="../assets/startbild/strahlender-baum.svg" alt="Startbild: beide Lichterketten, dazu drei rote Lichter: rechts in der dritten Etage, rechts in der vierten und ganz oben an der Spitze." width="264" height="358">
 

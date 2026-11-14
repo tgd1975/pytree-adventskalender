@@ -2,7 +2,7 @@
 kopfbild: /assets/titel/wachender-baum.svg
 kopfbild_text: Der Baum ist wach, vor ihm liegt ein aufgeschlagenes Buch im Schnee, daneben die kleine Schlange.
 ---
-<!-- ERZEUGT von aufgaben/2_wachend/werkzeug/baue_seite.py im Repo pytree – nicht von Hand ändern, dort ändern und neu bauen. -->
+<!-- ERZEUGT von aufgaben/werkzeug/baue_seite.py --heft 2_wachend im Repo pytree – nicht von Hand ändern, dort ändern und neu bauen. -->
 # Der wachende Baum
 
 *Band 2 des Python-Adventskalenders.*
@@ -17,9 +17,8 @@ Was im ersten Heft stand, kannst du schon. Alles Neue lernst du hier, Türchen f
 
 ## Die Werkstatt einrichten
 
-Am einfachsten geht es mit einer Installationsdatei. Sie holt VS Code, Python und die Erweiterung für dieses Heft in
-einen eigenen Ordner. Administratorrechte braucht es dafür nicht, und die Werkstatt vom letzten Jahr bleibt, wie sie
-ist.
+Am einfachsten geht es mit einer Installationsdatei. Sie holt VS Code, Python und die Erweiterung für dieses Heft in einen eigenen
+Ordner. Administratorrechte braucht es dafür nicht, und die Werkstatt vom letzten Jahr bleibt, wie sie ist.
 
 - **Windows:**
   [installieren-wachender-baum-windows.cmd](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/installieren-wachender-baum-windows.cmd)
@@ -41,9 +40,9 @@ Läuft unter Windows und Linux.
 
 ## Den Baum auf das zweite Heft stellen
 
-Noch steht der Baum auf dem ersten Heft. Bevor du den ersten Code eingibst: Stecker ziehen, beide Knöpfe halten und
-wieder einstecken, bis die Lichterketten abwechselnd blinken. Schalter auf `01000000`, **Bestätigen**. Jedes Heft
-behält dabei seinen eigenen Stand. So sieht der Baum aus, wenn er auf dem zweiten Heft steht:
+Noch steht der Baum auf dem ersten Heft. Bevor du den ersten Code eingibst: Stecker ziehen, beide Knöpfe
+halten und wieder einstecken, bis die Lichterketten abwechselnd blinken. Schalter auf `01000000`, **Bestätigen**.
+Jedes Heft behält dabei seinen eigenen Stand. So sieht der Baum aus, wenn er auf dem zweiten Heft steht:
 
 <img src="../assets/startbild/wachender-baum.svg" alt="Startbild: beide Lichterketten, dazu ein grünes Licht rechts in der zweiten Etage, ein grünes links in der dritten und ein rotes links in der vierten." width="264" height="358">
 

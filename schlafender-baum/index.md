@@ -2,6 +2,7 @@
 kopfbild: /assets/titel/schlafender-baum.svg
 kopfbild_text: Ein kleiner Baum schläft auf einem verschneiten Hügel, darüber Mond und Sterne, daneben eine kleine Schlange.
 ---
+<!-- ERZEUGT von aufgaben/werkzeug/baue_seite.py --heft 1_schlafend im Repo pytree – nicht von Hand ändern, dort ändern und neu bauen. -->
 # 🎄 Der schlafende Baum
 
 *Ein Adventskalender, der Python beibringt.*
@@ -17,7 +18,8 @@ genau richtig.**
 ## Die Werkstatt einrichten
 
 Am einfachsten geht es mit einer Installationsdatei. Sie holt VS Code, Python und die Erweiterung, die dich durch die
-24 Türchen begleitet, in einen eigenen Ordner. Administratorrechte braucht es dafür nicht.
+24 Türchen begleitet, in einen eigenen
+Ordner. Administratorrechte braucht es dafür nicht.
 
 - **Windows:**
   [installieren-windows.cmd](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/installieren-windows.cmd)
@@ -27,18 +29,17 @@ Am einfachsten geht es mit einer Installationsdatei. Sie holt VS Code, Python un
   herunterladen, mit **Strg+Alt+T** ein Terminal öffnen, `bash Downloads/installieren-ubuntu.sh` eintippen und
   **Enter** drücken.
 
-Danach startest du VS Code mit dem Symbol **Der schlafende Baum** auf dem Desktop. Wie es weitergeht, zeigt dir
-die Erweiterung. Gibt es im Dezember eine neue Fassung, führst du die Installationsdatei einfach noch einmal aus. Deine
+Danach startest du VS Code mit dem Symbol **Der schlafende Baum** auf dem Desktop. Wie es weitergeht, zeigt dir die
+Erweiterung. Gibt es im Dezember eine neue Fassung, führst du die Installationsdatei einfach noch einmal aus. Deine
 Lösungen und dein Fortschritt bleiben.
 
 Von Hand geht es auch: Die Erweiterung `pytree-adventskalender-….vsix` liegt unter
-[Releases](https://github.com/tgd1975/pytree-adventskalender/releases/latest) bei den **Assets**, dazu braucht es
-[VS Code](https://code.visualstudio.com/). Was die Installationsdateien genau tun, steht in ihren ersten Zeilen.
+[Releases](https://github.com/tgd1975/pytree-adventskalender/releases) beim neuesten Release „Der schlafende Baum“ bei den **Assets**, dazu braucht
+es [VS Code](https://code.visualstudio.com/). Was die Installationsdateien genau tun, steht in ihren ersten Zeilen.
 
 Läuft unter Windows und Linux.
 
 ## Wenn etwas klemmt
 
-Viele Antworten stehen schon unter [Häufige Fragen](FAQ.md). Klemmt etwas, ist etwas unklar oder hast du eine Idee,
-schreib auf GitHub ein [Issue](https://github.com/tgd1975/pytree-adventskalender/issues/new/choose), so heißen dort
-die Meldungen.
+Viele Antworten stehen schon unter [Häufige Fragen](FAQ.md). Klemmt etwas, ist etwas unklar oder hast du eine Idee, schreib auf GitHub ein
+[Issue](https://github.com/tgd1975/pytree-adventskalender/issues/new/choose), so heißen dort die Meldungen.
