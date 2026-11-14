@@ -59,11 +59,10 @@ defaults:
       marke: Der singende Baum
       heim: /singender-baum/
       beschreibung: Ein Mal-Adventskalender, bei dem der Baum singt
-  # Platzhalter bis zum Verschenken: ohne Titel, im Schema der allgemeinen Seite (MD-72, EG-14)
   - scope:
       path: eingeschneit
     values:
-      bereich: allgemein
-      marke: pytree
-      heim: /
-      beschreibung: Kommt noch
+      bereich: eingeschneit
+      marke: Eingeschneit
+      heim: /eingeschneit/
+      beschreibung: Ein Rätsel-Adventskalender auf der Hohen Wand

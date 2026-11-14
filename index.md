@@ -43,11 +43,14 @@ Hat dich ein Heft hierher geschickt? Hier geht es zu seiner Seite.
     <span class="heft-satz">Ein Malheft mit 24 leeren Seiten. Jeden Tag singt der Baum ein anderes Weihnachtslied, und dazu entsteht ein Bild.</span>
   </span>
 </a>
-<div class="heft leer">
+<a class="heft" href="eingeschneit/">
+  <img src="assets/titel/eingeschneit.svg" alt="Der Baum lacht im Schnee vor dem Gasthaus auf der Hohen Wand, im Fenster brennt Licht." width="480" height="240">
   <span class="heft-text">
-    <span class="heft-art">Noch ein Heft · kommt noch</span>
+    <span class="heft-name">Eingeschneit auf der Hohen Wand</span>
+    <span class="heft-art">Rätsel, mit Bleistift</span>
+    <span class="heft-satz">Neun Leute sitzen oben am Berg im Schnee fest, und jeden Tag fehlt etwas. Mit Plan, Aussagen und Bleistift findest du heraus, wer es hat.</span>
   </span>
-</div>
+</a>
 </div>
 
 ## Welches Heft ist eingestellt?
@@ -67,6 +70,10 @@ Stern. Nur die zwei Lichterketten leuchten ruhig, dazu drei einzelne Lichter, be
 <figure>
   <img src="assets/startbild/strahlender-baum.svg" alt="Startbild: beide Lichterketten, dazu drei rote Lichter: rechts in der dritten Etage, rechts in der vierten und ganz oben an der Spitze." width="264" height="358">
   <figcaption><b>Der strahlende Baum</b> Schalter 3 · <code>00100000</code></figcaption>
+</figure>
+<figure>
+  <img src="assets/startbild/eingeschneit.svg" alt="Startbild: beide Lichterketten, dazu ein goldenes Licht links in der ersten Etage, ein gelbes links in der zweiten und ein grünes in der Mitte der vierten." width="264" height="358">
+  <figcaption><b>Eingeschneit auf der Hohen Wand</b> Schalter 4 · <code>00010000</code></figcaption>
 </figure>
 <figure>
   <img src="assets/startbild/singender-baum.svg" alt="Startbild: beide Lichterketten, dazu ein blaues Licht rechts unten, ein rotes links in der dritten Etage und ein gelbes links in der vierten." width="264" height="358">
