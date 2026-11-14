@@ -17,9 +17,27 @@ Was in den ersten beiden Heften stand, kannst du schon. Neu sind Klassen und Obj
 
 ## Die Werkstatt einrichten
 
-Die Installationsdateien für den strahlenden Baum kommen hier vor dem 1. Dezember dazu: eine für Windows, eine für Linux. Sie
-holen VS Code, Python und die Erweiterung für dieses Heft in einen eigenen Ordner, Administratorrechte braucht es
-dafür nicht. Die Werkstätten der letzten Jahre bleiben, wie sie sind.
+Am einfachsten geht es mit einer Installationsdatei. Sie holt VS Code, Python und die Erweiterung für dieses Heft in
+einen eigenen Ordner. Administratorrechte braucht es dafür nicht, und die Werkstätten der letzten Jahre bleiben, wie
+sie sind.
+
+- **Windows:**
+  [installieren-strahlender-baum-windows.cmd](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/installieren-strahlender-baum-windows.cmd)
+  herunterladen und doppelklicken. Warnt Windows: **Weitere Informationen**, dann **Trotzdem ausführen**.
+- **Linux:**
+  [installieren-strahlender-baum-ubuntu.sh](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/installieren-strahlender-baum-ubuntu.sh)
+  herunterladen, mit **Strg+Alt+T** ein Terminal öffnen, `bash Downloads/installieren-strahlender-baum-ubuntu.sh` eintippen und
+  **Enter** drücken.
+
+Danach startest du VS Code mit dem Symbol **Der strahlende Baum** auf dem Desktop. Wie es weitergeht, zeigt dir die
+Erweiterung. Gibt es im Dezember eine neue Fassung, führst du die Installationsdatei einfach noch einmal aus. Deine
+Lösungen und dein Fortschritt bleiben.
+
+Von Hand geht es auch: Die Erweiterung `pytree-strahlender-baum-….vsix` liegt unter
+[Releases](https://github.com/tgd1975/pytree-adventskalender/releases) beim neuesten Release „Der strahlende Baum“ bei den **Assets**, dazu braucht
+es [VS Code](https://code.visualstudio.com/). Was die Installationsdateien genau tun, steht in ihren ersten Zeilen.
+
+Läuft unter Windows und Linux.
 
 ## Den Baum auf das dritte Heft stellen
 
