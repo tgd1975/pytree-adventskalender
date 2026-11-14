@@ -9,8 +9,8 @@ ein Adventskalender für sich: 24 Tage, jeden Tag ein Code, den du hinten am Bau
 
 - [Der schlafende Baum](https://tgd1975.github.io/pytree-adventskalender/schlafender-baum/) – Python, Band 1:
   die Werkstatt einrichten, Häufige Fragen
-- [Der wachende Baum](https://tgd1975.github.io/pytree-adventskalender/wachender-baum/) – Python, Band 2, kommt noch
-- [Der strahlende Baum](https://tgd1975.github.io/pytree-adventskalender/strahlender-baum/) – Python, Band 3, kommt noch
+- [Der wachende Baum](https://tgd1975.github.io/pytree-adventskalender/wachender-baum/) – Python, Band 2
+- [Der strahlende Baum](https://tgd1975.github.io/pytree-adventskalender/strahlender-baum/) – Python, Band 3
 - [Der singende Baum](https://tgd1975.github.io/pytree-adventskalender/singender-baum/) – Malen und Singen, kommt noch
 
 Klemmt etwas, ist etwas unklar oder hast du eine Idee: ein

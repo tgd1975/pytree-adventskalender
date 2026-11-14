@@ -23,7 +23,7 @@ Hat dich ein Heft hierher geschickt? Hier geht es zu seiner Seite.
   <img src="assets/titel/wachender-baum.svg" alt="Der Baum ist wach, vor ihm liegt ein aufgeschlagenes Buch im Schnee, daneben die kleine Schlange." width="480" height="240">
   <span class="heft-text">
     <span class="heft-name">Der wachende Baum</span>
-    <span class="heft-art">Python, Band 2 · kommt noch</span>
+    <span class="heft-art">Python, Band 2</span>
     <span class="heft-satz">In der Himmelswerkstatt sind 24 Seiten eines Buchs unleserlich geworden. Du schreibst sie neu, und der Baum lernt daraus Kunststücke.</span>
   </span>
 </a>
