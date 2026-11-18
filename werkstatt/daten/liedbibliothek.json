@@ -1,0 +1,2268 @@
+{
+  "description": "Die Liedbibliothek für alle Hefte (Konzept docs/concepts/offen/zustandsautomat.md, „Die Liedbibliothek“). Ein Heft nennt ein Lied beim Namen; der Erzeuger übersetzt die Noten für den Baum. Prüfung der Lieder: Skill lieder.",
+  "songs": {
+    "o_tannenbaum": {
+      "title": "O Tannenbaum",
+      "ms": 150,
+      "notes": [
+        {
+          "note": "G5",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 3
+        },
+        {
+          "note": "C6",
+          "len": 1
+        },
+        {
+          "note": "C6",
+          "len": 6
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 3
+        },
+        {
+          "note": "E6",
+          "len": 1
+        },
+        {
+          "note": "E6",
+          "len": 6
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 3
+        },
+        {
+          "note": "E6",
+          "len": 1
+        },
+        {
+          "note": "F6",
+          "len": 6
+        },
+        {
+          "note": "B5",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 4
+        },
+        {
+          "note": "G6",
+          "len": 4
+        },
+        {
+          "note": "G6",
+          "len": 3
+        },
+        {
+          "note": "E6",
+          "len": 1
+        },
+        {
+          "note": "A6",
+          "len": 6
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 3
+        },
+        {
+          "note": "F6",
+          "len": 1
+        },
+        {
+          "note": "F6",
+          "len": 6
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 3
+        },
+        {
+          "note": "D6",
+          "len": 1
+        },
+        {
+          "note": "G6",
+          "len": 6
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 3
+        },
+        {
+          "note": "E6",
+          "len": 1
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "G5",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 3
+        },
+        {
+          "note": "C6",
+          "len": 1
+        },
+        {
+          "note": "C6",
+          "len": 6
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 3
+        },
+        {
+          "note": "E6",
+          "len": 1
+        },
+        {
+          "note": "E6",
+          "len": 6
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 3
+        },
+        {
+          "note": "E6",
+          "len": 1
+        },
+        {
+          "note": "F6",
+          "len": 6
+        },
+        {
+          "note": "B5",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 8
+        }
+      ],
+      "source": "C-Dur statt G-Dur, damit es in C6–C7 liegt.",
+      "rights": "Ernst Anschütz 1824, eine Strophe"
+    },
+    "stiefel_polka": {
+      "title": "Stiefel-Polka",
+      "ms": 110,
+      "notes": [
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "C7",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 4
+        },
+        {
+          "note": "R",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "C7",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "Bb6",
+          "len": 2
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 4
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "Bb6",
+          "len": 2
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "C7",
+          "len": 4
+        },
+        {
+          "note": "B6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "A6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 4
+        },
+        {
+          "note": "G5",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "R",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 2
+        }
+      ],
+      "source": "A-Teil zweimal, B-Teil, Schluss.",
+      "rights": "Eigenkomposition für den Nikolaus (Tag 6): 2/4, hüpfend wie Stiefel im Schnee"
+    },
+    "jingle_bells": {
+      "title": "Jingle Bells",
+      "ms": 75,
+      "notes": [
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 8
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 8
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "G6",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 6
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 16
+        },
+        {
+          "note": "F6",
+          "len": 4
+        },
+        {
+          "note": "F6",
+          "len": 4
+        },
+        {
+          "note": "F6",
+          "len": 6
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 8
+        },
+        {
+          "note": "G6",
+          "len": 8
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 8
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 8
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "G6",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 6
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 16
+        },
+        {
+          "note": "F6",
+          "len": 4
+        },
+        {
+          "note": "F6",
+          "len": 4
+        },
+        {
+          "note": "F6",
+          "len": 6
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "G6",
+          "len": 4
+        },
+        {
+          "note": "G6",
+          "len": 4
+        },
+        {
+          "note": "F6",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 16
+        }
+      ],
+      "source": "C-Dur.",
+      "rights": "James Lord Pierpont 1857, Refrain zweimal (zweites Mal mit Schluss)"
+    },
+    "we_wish_you": {
+      "title": "We Wish You a Merry Christmas",
+      "ms": 110,
+      "notes": [
+        {
+          "note": "G5",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "B5",
+          "len": 2
+        },
+        {
+          "note": "A5",
+          "len": 4
+        },
+        {
+          "note": "F5",
+          "len": 4
+        },
+        {
+          "note": "A5",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "B5",
+          "len": 4
+        },
+        {
+          "note": "G5",
+          "len": 4
+        },
+        {
+          "note": "B5",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 4
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 4
+        },
+        {
+          "note": "A5",
+          "len": 4
+        },
+        {
+          "note": "G5",
+          "len": 2
+        },
+        {
+          "note": "G5",
+          "len": 2
+        },
+        {
+          "note": "A5",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 4
+        },
+        {
+          "note": "B5",
+          "len": 4
+        },
+        {
+          "note": "C6",
+          "len": 12
+        }
+      ],
+      "source": "musik/basis/liederbuch.py",
+      "rights": "Englisches Volkslied, 3/4, C-Dur"
+    },
+    "stille_nacht": {
+      "title": "Stille Nacht",
+      "ms": 130,
+      "notes": [
+        {
+          "note": "C6",
+          "len": 3
+        },
+        {
+          "note": "D6",
+          "len": 1
+        },
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "A5",
+          "len": 6
+        },
+        {
+          "note": "C6",
+          "len": 3
+        },
+        {
+          "note": "D6",
+          "len": 1
+        },
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "A5",
+          "len": 6
+        },
+        {
+          "note": "G6",
+          "len": 4
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "E6",
+          "len": 6
+        },
+        {
+          "note": "F6",
+          "len": 4
+        },
+        {
+          "note": "F6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 6
+        },
+        {
+          "note": "D6",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 3
+        },
+        {
+          "note": "E6",
+          "len": 1
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 3
+        },
+        {
+          "note": "D6",
+          "len": 1
+        },
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "A5",
+          "len": 6
+        },
+        {
+          "note": "D6",
+          "len": 4
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 3
+        },
+        {
+          "note": "E6",
+          "len": 1
+        },
+        {
+          "note": "D6",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 3
+        },
+        {
+          "note": "D6",
+          "len": 1
+        },
+        {
+          "note": "C6",
+          "len": 2
+        },
+        {
+          "note": "A5",
+          "len": 6
+        },
+        {
+          "note": "G6",
+          "len": 4
+        },
+        {
+          "note": "G6",
+          "len": 2
+        },
+        {
+          "note": "Bb6",
+          "len": 3
+        },
+        {
+          "note": "G6",
+          "len": 1
+        },
+        {
+          "note": "E6",
+          "len": 2
+        },
+        {
+          "note": "F6",
+          "len": 6
+        },
+        {
+          "note": "A6",
+          "len": 6
+        },
+        {
+          "note": "F6",
+          "len": 3
+        },
+        {
+          "note": "C6",
+          "len": 1
+        },
+        {
+          "note": "A5",
+          "len": 2
+        },
+        {
+          "note": "C6",
+          "len": 3
+        },
+        {
+          "note": "Bb5",
+          "len": 1
+        },
+        {
+          "note": "G5",
+          "len": 2
+        },
+        {
+          "note": "F5",
+          "len": 12
+        }
+      ],
+      "source": "F-Dur, damit die Spitze (B♭6) unter 2 kHz bleibt.",
+      "rights": "Franz Xaver Gruber 1818, eine Strophe, 6/8"
+    },
+    "kling_gloeckchen": {
+      "title": "Kling, Glöckchen, klingelingeling",
+      "ms": 150,
+      "abc": "c2 AB | c/d/c/d/ c2 | B2 Gc | A4 | GG AF | A2 G2 | BB cG | B2 A2 |GG A=B | c2 G2 | Ad c=B | d2 c2 | c2 AB | c/d/c/d/ c2 | B2 Gc | A4 |]",
+      "key": "F",
+      "unit": 8,
+      "transpose": 19,
+      "source": "de.wikipedia.org/wiki/Kling,_Glöckchen,_klingelingeling, gleich der MIDI-Datei von Gerloff (Wikimedia Commons); das ABC von Mjchael endet abweichend auf dem Grundton, hier wie in den beiden anderen auf der Terz. F-Dur → C-Dur.",
+      "rights": "Text Karl Enslin († 1875), Melodie anonym (1862)"
+    },
+    "schneefloeckchen": {
+      "title": "Schneeflöckchen, Weißröckchen",
+      "ms": 165,
+      "abc": "EF | G2 G2 A2 | D2 D2 DE | F2 F2 G2 | E4 EF | G2 G2 c2 | B2 A2 GF | E2 F2 D2 | C4 |]",
+      "key": "C",
+      "unit": 8,
+      "transpose": 24,
+      "source": "de.wikipedia.org/wiki/Schneeflöckchen,_Weißröckchen, gleich dem ABC im Wikibooks-Liederbuch.",
+      "rights": "Text nach Hedwig Haberkern († 1901), Melodie anonym (um 1915)"
+    },
+    "a_a_a_winter": {
+      "title": "A, a, a, der Winter, der ist da",
+      "ms": 150,
+      "abc": "B2c2 | d2z c | BBAA | G2z2 | ddcc | BBAA | ddcc | BBAA | B2c2 | d2z c | BBAA | G2z2 |]",
+      "key": "G",
+      "unit": 8,
+      "transpose": 17,
+      "source": "Böhme-Sammlung (ESAC B0637, abcnotation.com); eine zweite Notenquelle gibt es nicht, volksliederarchiv.de beschreibt die Melodie gleich. G-Dur → C-Dur.",
+      "rights": "Text Friedrich Heinrich Eickhoff († 1886), Volksweise vor 1800"
+    },
+    "leise_rieselt": {
+      "title": "Leise rieselt der Schnee",
+      "ms": 160,
+      "abc": "B2 B ABA | G3- G2 z | G2 E GFE | D3- D2 z | A^GA cBA | G3- G2 z | A>EE FEF | G3- G2 z |]",
+      "key": "G",
+      "unit": 8,
+      "transpose": 24,
+      "source": "de.wikipedia.org/wiki/Leise_rieselt_der_Schnee, gleich dem Wikibooks-Liederbuch und dem ABC von Stephen Merrony. G-Dur, eine Oktave höher (D6–C7).",
+      "rights": "Eduard Ebel († 1905), 1895"
+    },
+    "froh_und_munter": {
+      "title": "Lasst uns froh und munter sein",
+      "ms": 125,
+      "abc": "G2 G2 GA GF | E2 E2 E2 z2 | F2 F2 FG FE | D2 D2 D2 z2 | C2 D2 E2 F2 | GA GA G2 z2 |c2 G2 GA GF | E2 D2 G2 z2 | c2 G2 GA GF | E2 D2 C2 z2 |]",
+      "key": "C",
+      "unit": 8,
+      "transpose": 24,
+      "source": "Jahrhundert. de.wikipedia.org/wiki/Lasst_uns_froh_und_munter_sein, gleiche Töne im Wikibooks-Liederbuch und bei Helmut Eberl (abcnotation.com); die Pausen am Ende der Zeilen wie in der Wikipedia.",
+      "rights": "Volkslied, 19"
+    },
+    "morgen_kinder": {
+      "title": "Morgen, Kinder, wird's was geben",
+      "ms": 180,
+      "abc": "G D E D | E/G/ F/A/ G D | B B/c/ d B | c B A2 | G D E D | E/G/ F/A/ G D | B B/c/ d B | c B A2 |c c e e | A A d2 | G G c c | B/A/ G/F/ G2 |]",
+      "key": "G",
+      "unit": 8,
+      "transpose": 17,
+      "source": "Die erste Partitur in de.wikipedia.org/wiki/Morgen,_Kinder,_wird’s_was_geben, gleich dem Wikibooks-Liederbuch. G-Dur → C-Dur.",
+      "rights": "Text Karl Friedrich Splittegarb († 1802), Melodie Carl Gottlieb Hering († 1853)"
+    },
+    "backe_backe": {
+      "title": "Backe, backe Kuchen",
+      "ms": 100,
+      "abc": "A A B B | A2 F D | A A B B | A2 F2 | A A B B | A A F F | A A B B | A A F F |A/A/ A F2 | A/A/ A F2 | A A F2 | A A B B | A A F2 | d2 A F | E D3 |]",
+      "key": "D",
+      "unit": 4,
+      "transpose": 22,
+      "source": "de.wikipedia.org/wiki/Backe,_backe_Kuchen, mit der letzten Zeile („Schieb, schieb in'n Ofen 'nein“). Wo die Wikipedia von Ludwig Erks Fassung (ESAC E1830) und der MIDI-Datei von Gerloff abweicht, gilt, was die beiden gemeinsam haben: „backen“ auf der Terz, der Schluss Oktave – Quinte – Terz – Sekunde – Grundton. D-Dur → C-Dur.",
+      "rights": "Volkslied aus Sachsen und Thüringen, vor 1840"
+    },
+    "weihnachtsbaum_lichter": {
+      "title": "Am Weihnachtsbaume die Lichter brennen",
+      "ms": 155,
+      "abc": "C C E | (G2E) G c A | G2 E G A G | F2 D2 G G | E2 z E E G | (F2D) F F A |G2 E E E G | F2 D2 G G | E2 z |]",
+      "key": "C",
+      "unit": 8,
+      "transpose": 24,
+      "source": "de.wikipedia.org/wiki/Am_Weihnachtsbaum_die_Lichter_brennen, gleich dem Wikibooks-Liederbuch und der MIDI-Datei von Gerloff (Wikimedia Commons).",
+      "rights": "Text Hermann Kletke († 1886), 1841; Melodie anonym, um 1830"
+    },
+    "weihnachtsmann": {
+      "title": "Morgen kommt der Weihnachtsmann",
+      "ms": 125,
+      "abc": "D D A A | B B A2 | G G F F | E2 D2 | A A G G | F F E2 | A A G G | F F E2 |D D A A | B B A2 | G G F F | E2 D2 |]",
+      "key": "D",
+      "unit": 4,
+      "transpose": 22,
+      "source": "Jahrhundert. Wikibooks-Liederbuch, gleich der MIDI-Datei von Gerloff und Friedlaenders Deutschem Liederschatz (um 1920). D-Dur → C-Dur.",
+      "rights": "Text Hoffmann von Fallersleben († 1874), 1835; Melodie „Ah! vous dirai-je, maman“, Frankreich, 18"
+    },
+    "froehliche_weihnacht": {
+      "title": "Fröhliche Weihnacht überall",
+      "ms": 155,
+      "abc": "c B A B c2 A2 | F2 G2 A4 | A G F G A2 F2 | C2 E2 F4 |G2 c2 c4 | A2 c2 c4 | G2 d2 c2 A2 | c2 B A G4 |c B A B c2 A2 | F2 G2 A4 | A G F G A2 F2 | C2 E2 F4 |]",
+      "key": "F",
+      "unit": 16,
+      "transpose": 19,
+      "source": "Cook, New York 1870; deutsch zuerst bei Caroline Wichern 1880. Nur der Kehrreim, den alle kennen. MIDI-Datei von Gerloff (Wikimedia Commons), gleich „Liederlust und Psalter“ (Cincinnati 1882). F-Dur → C-Dur.",
+      "rights": "Original „Merry, merry Christmas“, Rebecca S"
+    },
+    "deck_the_halls": {
+      "title": "Deck the Halls",
+      "ms": 112,
+      "abc": "c3 B A2 G2 | F2 G2 A2 F2 | G A B G A3 G | F2 E2 F4 |c3 B A2 G2 | F2 G2 A2 F2 | G A B G A3 G | F2 E2 F4 |G3 A B2 G2 | A3 B c2 G2 | A=B c2 de f2 | e2 d2 c4 |c3 B A2 G2 | F2 G2 A2 F2 | d d d d c3 B | A2 G2 F4 |]",
+      "key": "F",
+      "unit": 8,
+      "transpose": 19,
+      "source": "Everyday Song Book 1927 (abcnotation.com), gleich der Digital Tradition und Paul Hardys Xmas Tunebook. Die Wiederholung ausgeschrieben. F-Dur → C-Dur.",
+      "rights": "Walisische Volksweise („Nos Galan“), englischer Text Thomas Oliphant († 1873), 1862"
+    },
+    "kommet_ihr_hirten": {
+      "title": "Kommet, ihr Hirten",
+      "ms": 135,
+      "abc": "c2 (cA) (dB) | c2 (cA) (dB) | c2 (Ac) (GA) | F6 |c2 (cA) (dB) | c2 (cA) (dB) | c2 (Ac) (GA) | F6 |F2 A F A c | F2 A F G C | F2 A F A c | F2 A F G C | c2 (Ac) (GA) | F4 z2 |]",
+      "key": "F",
+      "unit": 8,
+      "transpose": 19,
+      "source": "Oberstimme aus de.wikipedia.org/wiki/Kommet,_ihr_Hirten, gleich der MIDI-Datei von Gerloff und dem Incipit bei hymnary.org. Die Wiederholung ausgeschrieben. F-Dur → C-Dur.",
+      "rights": "Text Carl Riedel († 1888), 1870; böhmische Weise „Nesem vám noviny“, gedruckt 1847"
+    },
+    "joy_to_the_world": {
+      "title": "Joy to the World",
+      "ms": 150,
+      "abc": "d c3/4 B/4 | A3/ G/ | F E | D3/ A/ | B3/ B/ | c3/ c/ | d2- | d3/ d/ | (d/c/) (B/A/) | (A3/4G/4F/) d/ |(d/c/) (B/A/) | (A3/4G/4F/) F/ | F/ F/ F/ (F/4G/4) | A3/ (G/4F/4) | E/ E/ E/ (E/4F/4) |G3/ (F/4E/4) | (D/ d) B/ | (A3/4G/4F/) G/ | F E | D2 |]",
+      "key": "D",
+      "unit": 4,
+      "transpose": 22,
+      "source": "ABC von Stephen Merrony (abcnotation.com, Antioch_1), gleich der englischen Wikipedia (Mason 1839) und der MIDI-Datei von Gerloff; „King“ hält es wie diese beiden einen Takt länger als Merrony. D-Dur → C-Dur.",
+      "rights": "Text Isaac Watts († 1748), 1719; Melodie „Antioch“, Lowell Mason († 1872) nach Händel"
+    },
+    "alle_jahre_wieder": {
+      "title": "Alle Jahre wieder",
+      "ms": 180,
+      "abc": "A3 B A2 G2 | F4 E4 | D2 (EF) G2 F2 | E6 z2 | F2 A2 B2 A2 | d4 (c2B2) | A2 (GF) G2 A2 | F6 z2 |]",
+      "key": "D",
+      "unit": 8,
+      "transpose": 22,
+      "source": "de.wikipedia.org/wiki/Alle_Jahre_wieder, gleich dem Wikibooks-Liederbuch und der MIDI-Datei von Gerloff. D-Dur → C-Dur.",
+      "rights": "Text Wilhelm Hey († 1854), 1837; Melodie Friedrich Silcher († 1860), 1842"
+    },
+    "o_du_froehliche": {
+      "title": "O du fröhliche",
+      "ms": 112,
+      "abc": "G4 A4 | G3 F (E2 F2) | G4 A4 | G3 F (E2 F2) | G4 G4 | A4 B2 c2 | B4 A4 | G8 |(D3 E) D2 E2 | (F3 G) F4 | (E3 F) E2 F2 | (G3 A) G4 | (c2 B2) (A2 G2) | c2 A2 G2 F2 | E4 D4 | C8 |]",
+      "key": "C",
+      "unit": 8,
+      "transpose": 24,
+      "source": "de.wikipedia.org/wiki/O_du_fröhliche, gleich der MIDI-Datei von Gerloff (EG/GL) und Böhme (ESAC B0747).",
+      "rights": "Text Johannes Daniel Falk († 1826), 1816; Melodie „O sanctissima“, gedruckt London 1792"
+    },
+    "ihr_kinderlein": {
+      "title": "Ihr Kinderlein, kommet",
+      "ms": 185,
+      "abc": "A | A2 FA | A2 FA | G2 EG | F2 zA | A2 FA | A2 FA | G2 EG | F2 zF |E2 EE | G2 GG | F2 FF | B2 zB | A2 AA | d2 AF | G2 EC | D3 |]",
+      "key": "D",
+      "unit": 8,
+      "transpose": 22,
+      "source": "A. P. Schulz († 1800), 1794, in der Fassung von F. H. Eickhoff († 1886). de.wikipedia.org/wiki/Ihr_Kinderlein,_kommet, gleich dem Wikibooks-Liederbuch. D-Dur → C-Dur.",
+      "rights": "Text Christoph von Schmid († 1854); Melodie J"
+    },
+    "sternlein": {
+      "title": "Weißt du, wie viel Sternlein stehen",
+      "ms": 150,
+      "abc": "FG | A2 A2 BG | (dc) c2 Ac | (cB) B2 cB | A4 |FG | A2 A2 BG | (dc) c2 Ac | (cB) B2 cB | A4 |cA | (AG) G2 dB | (BA) A2 |cA | (AG) G2 dB | (BA) A2 |FG | A2 A2 BG | (d2 c2) Ac | (cB) B2 cB | A4 |]",
+      "key": "F",
+      "unit": 8,
+      "transpose": 19,
+      "source": "de.wikipedia.org/wiki/Weißt_du,_wie_viel_Sternlein_stehen (nach liederprojekt.org), gleich der MIDI-Datei von Gerloff (EG 511). Die Wiederholungen ausgeschrieben. F-Dur → C-Dur.",
+      "rights": "Text Wilhelm Hey († 1854), 1837; Volksweise um 1818"
+    },
+    "vom_himmel_hoch": {
+      "title": "Vom Himmel hoch, da komm ich her",
+      "ms": 130,
+      "abc": "c | B2 A2 B2 G2 | A2 B2 c2 z c | c2 G2 G2 E2 | G2 F2 E2 z E |A2 A2 G2 B2 | c2 A2 G2 z c | B2 A2 G2 G2 | (FE) D2 C4 |]",
+      "key": "C",
+      "unit": 8,
+      "transpose": 24,
+      "source": "MIDI-Datei von Gerloff (Wikimedia Commons), gleich Erk (ESAC).",
+      "rights": "Martin Luther († 1546), 1539, wie EG 24"
+    },
+    "zuckerfee": {
+      "title": "Tanz der Zuckerfee",
+      "ms": 230,
+      "abc": "z2 g'e' g'2 f'2 | ^d'2 e'2 =d'd' d'2 | ^c'^c' ^c'2 =c'=c' c'2 | be' c'e' b2 z2 |z2 ge g2 f2 | ^d2 e2 g'g' g'2 | f'f' f'2 e'e' e'2 | ^d'f' e'f' ^d'2 z2 |z2 g'e' g'2 f'2 | ^d'2 e'2 =d'd' d'2 | ^c'^c' ^c'2 =c'=c' c'2 | be' c'e' b2 z2 |z2 e'^c' e'2 ^d'2 | z2 d'b d'2 ^c'2 | z2 c'a c'2 b2 | b^d'f'b' e'2 z2 |]",
+      "key": "Em",
+      "unit": 16,
+      "transpose": 1,
+      "source": "Celesta-Stimme von mfiles.co.uk, gleich der Celesta-Stimme von Ted Muller (MusicXML). Notiert wie geschrieben (die Celesta klingt eine Oktave höher), von e-Moll einen Halbton höher nach f-Moll, damit der tiefste Ton nicht unter dem des Bergkönigs liegt (E5, am Baum gehört), ♩ ≈ 65. Im letzten Takt läuft das Arpeggio in Sechzehnteln statt in Zweiunddreißigsteln und beginnt dafür eine Pause früher – der Summer kennt keine kürzeren Töne. Ohne Text.",
+      "rights": "Pjotr Tschaikowski († 1893), „Der Nussknacker“ 1892: das Thema der Celesta, Takt 5–20, ohne Begleitung"
+    },
+    "zu_bethlehem": {
+      "title": "Zu Bethlehem geboren",
+      "ms": 150,
+      "abc": "C2 | F3 G A2 G2 | F4 E2 F2 | G2 (FG) A2 G2 | F4 z2 c2 | c2 A2 B2 c2 | d4 B2 B2 | A2 B2 c2 (BA) |G6 z2 | c4 G4 | A4 G2 (AB) | c2 (FG) A2 G2 | F6 |]",
+      "key": "F",
+      "unit": 8,
+      "transpose": 19,
+      "source": "de.wikipedia.org/wiki/Zu_Bethlehem_geboren, gleich der MIDI-Datei von Gerloff bis auf „sein“ in der letzten Zeile. F-Dur → C-Dur.",
+      "rights": "Ersatz, falls eines am Baum nicht klingt (Konzept, „Die 24 Lieder“) Text Friedrich Spee († 1635), 1637; Melodie „Une petite feste“, Paris 1599"
+    },
+    "good_king_wenceslas": {
+      "title": "Good King Wenceslas",
+      "ms": 95,
+      "abc": "G G G A | G G D2 | E D E F | G2 G2 |G G G A | G G D2 | E D E F | G2 G2 |d c B A | B A G2 | E D E F | G2 G2 |D D E F | G G A2 | d c B A | (G2 c2) | G4 |]",
+      "key": "G",
+      "unit": 4,
+      "transpose": 17,
+      "source": "Paul Hardys Xmas Tunebook (abcnotation.com), gleich zwei weiteren Quellen. Die Wiederholung ausgeschrieben. G-Dur → C-Dur.",
+      "rights": "Englischer Text John Mason Neale († 1866), 1853; Melodie „Tempus adest floridum“, Piae Cantiones 1582"
+    },
+    "bergkoenig": {
+      "title": "In der Halle des Bergkönigs",
+      "ms": 134,
+      "parts": {
+        "theme": [
+          [
+            {
+              "note": "A5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "D#6",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "D#6",
+              "len": 4
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "Bb5",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "A5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "A6",
+              "len": 2
+            }
+          ],
+          [
+            {
+              "note": "G6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "G6",
+              "len": 8
+            }
+          ],
+          [
+            {
+              "note": "A5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "D#6",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "D#6",
+              "len": 4
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "Bb5",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "A5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "A6",
+              "len": 2
+            }
+          ],
+          [
+            {
+              "note": "G6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "G6",
+              "len": 8
+            }
+          ],
+          [
+            {
+              "note": "E5",
+              "len": 2
+            },
+            {
+              "note": "F#5",
+              "len": 2
+            },
+            {
+              "note": "G#5",
+              "len": 2
+            },
+            {
+              "note": "A5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "G#5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "G#5",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 4
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "G#5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "E5",
+              "len": 2
+            },
+            {
+              "note": "F#5",
+              "len": 2
+            },
+            {
+              "note": "G#5",
+              "len": 2
+            },
+            {
+              "note": "A5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "G#5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "G#5",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 4
+            },
+            {
+              "note": "B5",
+              "len": 8
+            }
+          ],
+          [
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "F#6",
+              "len": 2
+            },
+            {
+              "note": "G#6",
+              "len": 2
+            },
+            {
+              "note": "A6",
+              "len": 2
+            },
+            {
+              "note": "B6",
+              "len": 2
+            },
+            {
+              "note": "G#6",
+              "len": 2
+            },
+            {
+              "note": "B6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "C7",
+              "len": 2
+            },
+            {
+              "note": "G#6",
+              "len": 2
+            },
+            {
+              "note": "C7",
+              "len": 4
+            },
+            {
+              "note": "B6",
+              "len": 2
+            },
+            {
+              "note": "G#6",
+              "len": 2
+            },
+            {
+              "note": "B6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "F#6",
+              "len": 2
+            },
+            {
+              "note": "G#6",
+              "len": 2
+            },
+            {
+              "note": "A6",
+              "len": 2
+            },
+            {
+              "note": "B6",
+              "len": 2
+            },
+            {
+              "note": "G#6",
+              "len": 2
+            },
+            {
+              "note": "B6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "C7",
+              "len": 2
+            },
+            {
+              "note": "G#6",
+              "len": 2
+            },
+            {
+              "note": "C7",
+              "len": 4
+            },
+            {
+              "note": "B6",
+              "len": 8
+            }
+          ]
+        ],
+        "ending": [
+          [
+            {
+              "note": "A5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "D#6",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "D#6",
+              "len": 4
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "Bb5",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "A5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "A6",
+              "len": 2
+            }
+          ],
+          [
+            {
+              "note": "G6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "G6",
+              "len": 8
+            }
+          ],
+          [
+            {
+              "note": "A5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "D#6",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "D#6",
+              "len": 4
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "Bb5",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 4
+            }
+          ],
+          [
+            {
+              "note": "A5",
+              "len": 2
+            },
+            {
+              "note": "B5",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "D6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "A6",
+              "len": 2
+            }
+          ],
+          [
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "C6",
+              "len": 2
+            },
+            {
+              "note": "E6",
+              "len": 2
+            },
+            {
+              "note": "A6",
+              "len": 2
+            },
+            {
+              "note": "A5",
+              "len": 8
+            }
+          ]
+        ],
+        "coda": [
+          [
+            {
+              "note": "A5",
+              "len": 1
+            },
+            {
+              "note": "C6",
+              "len": 1
+            },
+            {
+              "note": "E6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 3
+            },
+            {
+              "note": "R",
+              "len": 2
+            }
+          ],
+          [
+            {
+              "note": "A5",
+              "len": 1
+            },
+            {
+              "note": "C6",
+              "len": 1
+            },
+            {
+              "note": "E6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 3
+            },
+            {
+              "note": "R",
+              "len": 2
+            }
+          ],
+          [
+            {
+              "note": "A5",
+              "len": 1
+            },
+            {
+              "note": "C6",
+              "len": 1
+            },
+            {
+              "note": "E6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 3
+            },
+            {
+              "note": "R",
+              "len": 2
+            }
+          ],
+          [
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 1
+            },
+            {
+              "note": "G#6",
+              "len": 1
+            }
+          ],
+          [
+            {
+              "note": "R",
+              "len": 6
+            }
+          ],
+          [
+            {
+              "note": "A5",
+              "len": 1
+            },
+            {
+              "note": "C6",
+              "len": 1
+            },
+            {
+              "note": "E6",
+              "len": 1
+            },
+            {
+              "note": "A6",
+              "len": 16
+            }
+          ]
+        ]
+      },
+      "source": "Thema mit 24 Takten wie in der Flötenstimme von flutetunes.com, von h-Moll nach a-Moll und eine Oktave höher (E5 … C7); Mittelteil eine Quinte höher in E-Dur mit kleiner Sexte, erst tief, dann eine Oktave höher; Coda in Abschnitten: drei Schläge als schnelles Arpeggio, Wirbel, Luft holen, Schlussakkord; ms ist das Tempo der ersten Runde der Show (♩ 112, firmware/basis/bergkoenig.py)",
+      "rights": "Edvard Grieg († 1907), Peer Gynt op. 46 Nr. 4 (1876)"
+    }
+  },
+  "signals": {
+    "correct": {
+      "title": "Bestätigung",
+      "tones": [
+        {
+          "note": 2700,
+          "ms": 80
+        }
+      ]
+    },
+    "wrong": {
+      "title": "Falscher Code",
+      "tones": [
+        {
+          "note": 600,
+          "ms": 200
+        }
+      ]
+    },
+    "known": {
+      "title": "Schon benutzt",
+      "tones": [
+        {
+          "note": "C7",
+          "ms": 60
+        },
+        {
+          "note": "R",
+          "ms": 40
+        },
+        {
+          "note": "C7",
+          "ms": 60
+        }
+      ]
+    },
+    "snore": {
+      "title": "Schnarcher (Stufe 0)",
+      "tones": [
+        {
+          "from_hz": 450,
+          "to_hz": 600,
+          "ms": 800
+        },
+        {
+          "note": "R",
+          "ms": 250
+        },
+        {
+          "from_hz": 600,
+          "to_hz": 450,
+          "ms": 1200
+        }
+      ]
+    },
+    "power_on": {
+      "title": "Einschalten",
+      "tones": [
+        {
+          "note": "C6",
+          "ms": 120
+        },
+        {
+          "note": "G6",
+          "ms": 200
+        }
+      ]
+    },
+    "test_reset": {
+      "title": "Test-Reset",
+      "tones": [
+        {
+          "note": "G6",
+          "ms": 150
+        },
+        {
+          "note": "R",
+          "ms": 50
+        },
+        {
+          "note": "E6",
+          "ms": 150
+        },
+        {
+          "note": "R",
+          "ms": 50
+        },
+        {
+          "note": "C6",
+          "ms": 300
+        }
+      ]
+    },
+    "bypass": {
+      "title": "Bypass",
+      "tones": [
+        {
+          "note": "C6",
+          "ms": 150
+        },
+        {
+          "note": "R",
+          "ms": 50
+        },
+        {
+          "note": "E6",
+          "ms": 150
+        },
+        {
+          "note": "R",
+          "ms": 50
+        },
+        {
+          "note": "G6",
+          "ms": 300
+        }
+      ]
+    }
+  }
+}

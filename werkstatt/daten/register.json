@@ -1,0 +1,409 @@
+{
+  "description": "Register des Wahlmodus und der Startbilder (MD-56, MD-76; Tabelle in docs/hefte/allgemein.md). Fest für immer, sobald ein Heft gedruckt ist. Die Muster E1 … E16 der eigenen Hefte wurden am 2026-11-17 einmal gerechnet (Baum-Werkstatt, Schritt 1). Dazu die Codes, die die Basis selbst vergibt (MD-79, firmware/basis/codes_basis.py).",
+  "base": [
+    {
+      "code": "00000000",
+      "name": "kein Code"
+    },
+    {
+      "code": "11111111",
+      "name": "alle an (frei gehalten)"
+    },
+    {
+      "code": "01100000",
+      "name": "Bergkönig"
+    }
+  ],
+  "official": [
+    {
+      "pattern": 1,
+      "folder": "1_schlafend",
+      "select_code": "10000000",
+      "boot_leds": [
+        "D18",
+        "D22",
+        "D10"
+      ]
+    },
+    {
+      "pattern": 2,
+      "folder": "2_wachend",
+      "select_code": "01000000",
+      "boot_leds": [
+        "D19",
+        "D16",
+        "D4"
+      ]
+    },
+    {
+      "pattern": 3,
+      "folder": "3_strahlend",
+      "select_code": "00100000",
+      "boot_leds": [
+        "D17",
+        "D8",
+        "D1"
+      ]
+    },
+    {
+      "pattern": 4,
+      "folder": "eingeschneit",
+      "select_code": "00010000",
+      "boot_leds": [
+        "D20",
+        "D13",
+        "D2"
+      ]
+    },
+    {
+      "pattern": 5,
+      "folder": "singend",
+      "select_code": "00001000",
+      "boot_leds": [
+        "D21",
+        "D11",
+        "D7"
+      ]
+    }
+  ],
+  "official_free": [
+    {
+      "pattern": 6,
+      "boot_leds": [
+        "D21",
+        "D13",
+        "D3"
+      ]
+    },
+    {
+      "pattern": 7,
+      "boot_leds": [
+        "D12",
+        "D7",
+        "D8"
+      ]
+    },
+    {
+      "pattern": 8,
+      "boot_leds": [
+        "D20",
+        "D9",
+        "D8"
+      ]
+    },
+    {
+      "pattern": 9,
+      "boot_leds": [
+        "D18",
+        "D14",
+        "D9"
+      ]
+    },
+    {
+      "pattern": 10,
+      "boot_leds": [
+        "D14",
+        "D16",
+        "D8"
+      ]
+    },
+    {
+      "pattern": 11,
+      "boot_leds": [
+        "D22",
+        "D16",
+        "D1"
+      ]
+    },
+    {
+      "pattern": 12,
+      "boot_leds": [
+        "D17",
+        "D9",
+        "D3"
+      ]
+    },
+    {
+      "pattern": 13,
+      "boot_leds": [
+        "D20",
+        "D10",
+        "D3"
+      ]
+    },
+    {
+      "pattern": 14,
+      "boot_leds": [
+        "D21",
+        "D18",
+        "D19"
+      ]
+    },
+    {
+      "pattern": 15,
+      "boot_leds": [
+        "D11",
+        "D10",
+        "D1"
+      ]
+    }
+  ],
+  "user": [
+    {
+      "pattern": 1,
+      "select_code": "11000100",
+      "boot_leds": [
+        "D1",
+        "D9",
+        "D12"
+      ]
+    },
+    {
+      "pattern": 2,
+      "select_code": "11000010",
+      "boot_leds": [
+        "D1",
+        "D14",
+        "D21"
+      ]
+    },
+    {
+      "pattern": 3,
+      "select_code": "10101000",
+      "boot_leds": [
+        "D1",
+        "D19",
+        "D20"
+      ]
+    },
+    {
+      "pattern": 4,
+      "select_code": "10100100",
+      "boot_leds": [
+        "D2",
+        "D17",
+        "D18"
+      ]
+    },
+    {
+      "pattern": 5,
+      "select_code": "10100010",
+      "boot_leds": [
+        "D3",
+        "D14",
+        "D15"
+      ]
+    },
+    {
+      "pattern": 6,
+      "select_code": "10011000",
+      "boot_leds": [
+        "D3",
+        "D16",
+        "D18"
+      ]
+    },
+    {
+      "pattern": 7,
+      "select_code": "10010100",
+      "boot_leds": [
+        "D3",
+        "D19",
+        "D22"
+      ]
+    },
+    {
+      "pattern": 8,
+      "select_code": "10010010",
+      "boot_leds": [
+        "D4",
+        "D8",
+        "D21"
+      ]
+    },
+    {
+      "pattern": 9,
+      "select_code": "10000110",
+      "boot_leds": [
+        "D5",
+        "D11",
+        "D17"
+      ]
+    },
+    {
+      "pattern": 10,
+      "select_code": "10000101",
+      "boot_leds": [
+        "D5",
+        "D12",
+        "D16"
+      ]
+    },
+    {
+      "pattern": 11,
+      "select_code": "01110000",
+      "boot_leds": [
+        "D5",
+        "D14",
+        "D20"
+      ]
+    },
+    {
+      "pattern": 12,
+      "select_code": "01001100",
+      "boot_leds": [
+        "D6",
+        "D13",
+        "D17"
+      ]
+    },
+    {
+      "pattern": 13,
+      "select_code": "00111000",
+      "boot_leds": [
+        "D6",
+        "D16",
+        "D20"
+      ]
+    },
+    {
+      "pattern": 14,
+      "select_code": "00101100",
+      "boot_leds": [
+        "D9",
+        "D10",
+        "D21"
+      ]
+    },
+    {
+      "pattern": 15,
+      "select_code": "00101001",
+      "boot_leds": [
+        "D9",
+        "D13",
+        "D19"
+      ]
+    },
+    {
+      "pattern": 16,
+      "select_code": "00011100",
+      "boot_leds": [
+        "D12",
+        "D13",
+        "D15"
+      ]
+    }
+  ],
+  "official_reserve": [
+    [
+      "D7",
+      "D10",
+      "D16"
+    ],
+    [
+      "D2",
+      "D15",
+      "D19"
+    ],
+    [
+      "D17",
+      "D20",
+      "D21"
+    ],
+    [
+      "D12",
+      "D20",
+      "D22"
+    ],
+    [
+      "D5",
+      "D21",
+      "D22"
+    ],
+    [
+      "D4",
+      "D11",
+      "D14"
+    ],
+    [
+      "D6",
+      "D12",
+      "D21"
+    ],
+    [
+      "D4",
+      "D17",
+      "D22"
+    ],
+    [
+      "D2",
+      "D10",
+      "D14"
+    ],
+    [
+      "D8",
+      "D11",
+      "D22"
+    ],
+    [
+      "D4",
+      "D12",
+      "D18"
+    ],
+    [
+      "D2",
+      "D11",
+      "D12"
+    ],
+    [
+      "D6",
+      "D7",
+      "D22"
+    ],
+    [
+      "D7",
+      "D17",
+      "D19"
+    ],
+    [
+      "D1",
+      "D15",
+      "D18"
+    ],
+    [
+      "D2",
+      "D9",
+      "D22"
+    ],
+    [
+      "D6",
+      "D11",
+      "D19"
+    ],
+    [
+      "D11",
+      "D15",
+      "D20"
+    ],
+    [
+      "D1",
+      "D7",
+      "D13"
+    ],
+    [
+      "D4",
+      "D10",
+      "D13"
+    ],
+    [
+      "D7",
+      "D18",
+      "D20"
+    ],
+    [
+      "D2",
+      "D16",
+      "D21"
+    ]
+  ]
+}

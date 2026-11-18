@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baum-Werkstatt</title>
+<link rel="stylesheet" href="werkstatt.css">
+<script src="https://cdn.jsdelivr.net/pyodide/v0.27.7/full/pyodide.js"></script>
+</head>
+<body>
+<header class="kopf">
+  <div class="titel">
+    <h1>Baum-Werkstatt</h1>
+    <span id="modus" class="plakette">lädt …</span>
+  </div>
+  <p class="leise">Ein Heft für den Baum zusammenstellen: welches Licht an welchem Tag dazukommt, was der Baum nach dem
+    richtigen Code zeigt, welche Lieder er singt. Alles bleibt auf deinem Rechner.</p>
+  <nav class="leiste">
+    <button id="neu" disabled>Neu</button>
+    <button id="oeffnen" disabled>Öffnen …</button>
+    <button id="speichern" disabled>Speichern</button>
+    <select id="offizielle" hidden aria-label="Offizielles Heft öffnen"><option value="">Offizielles Heft öffnen …</option></select>
+    <span id="datei" class="leise"></span>
+    <span class="raum"></span>
+    <button id="thema" class="leicht" title="hell oder dunkel">◐ hell / dunkel</button>
+  </nav>
+  <input id="dateiwahl" type="file" accept=".json,application/json" hidden>
+</header>
+
+<main>
+  <div id="laden" class="karte">
+    <p><strong>Die Werkstatt lädt.</strong> Beim ersten Öffnen holt der Browser Python für den Browser (Pyodide, einige
+      Megabyte); danach liegt es im Zwischenspeicher.</p>
+    <p id="ladestand" class="leise">…</p>
+  </div>
+
+  <div id="werkstatt" hidden>
+    <nav class="reiter" id="reiter">
+      <button data-teil="steckbrief" class="an">Steckbrief</button>
+      <button data-teil="tage">Tage</button>
+      <button data-teil="ablaeufe">Abläufe</button>
+      <button data-teil="lieder">Lieder</button>
+      <button data-teil="codes">Codes</button>
+      <button data-teil="pruefen">Prüfen <span id="fehlerzahl" class="zahl"></span></button>
+      <button data-teil="baum">Auf den Baum</button>
+    </nav>
+    <section id="teil-steckbrief" class="teil"></section>
+    <section id="teil-tage" class="teil" hidden></section>
+    <section id="teil-ablaeufe" class="teil" hidden></section>
+    <section id="teil-lieder" class="teil" hidden></section>
+    <section id="teil-codes" class="teil" hidden></section>
+    <section id="teil-pruefen" class="teil" hidden></section>
+    <section id="teil-baum" class="teil" hidden></section>
+  </div>
+  <pre id="testergebnis" hidden></pre>
+</main>
+
+<footer class="fuss leise">
+  Baum-Werkstatt · pytree · Prüfen und Übersetzen mit demselben Erzeuger wie die Firmware des Baums.
+</footer>
+<script src="baum.js"></script>
+<script src="werkstatt.js"></script>
+</body>
+</html>

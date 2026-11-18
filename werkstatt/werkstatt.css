@@ -1,0 +1,93 @@
+/* Baum-Werkstatt – Farben wie die allgemeine Seite im Netz (docs/styleguide/basis/gestaltung.md, „Die Seite im Netz“,
+   Spalte Allgemein), hell und dunkel. Die Schrift ist die der Seite, wo sie liegt, sonst eine Serifenschrift. */
+:root {
+  --grund: #ffffff; --karte: #f3f1ec; --schrift: #1d1d1d; --leise: #555555; --tanne: #1f5c3a; --verweis: #1f5c3a;
+  --gold: #1f5c3a; --rot: #a3262a; --linie: #e4e0d6; --code: #ebe6d9; --knopf: #1f5c3a; --knopf-schrift: #ffffff;
+  --knopf-zeiger: #a3262a;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-thema="hell"]) {
+    --grund: #14161a; --karte: #1c1f24; --schrift: #e8e4da; --leise: #a9a49a; --tanne: #7fc29b; --verweis: #9fd3b4;
+    --gold: #7fc29b; --rot: #e07a6e; --linie: #2e333a; --code: #262a31; --knopf: #2f7a50; --knopf-schrift: #f5f8fb;
+    --knopf-zeiger: #a3262a; color-scheme: dark;
+  }
+}
+:root[data-thema="dunkel"] {
+  --grund: #14161a; --karte: #1c1f24; --schrift: #e8e4da; --leise: #a9a49a; --tanne: #7fc29b; --verweis: #9fd3b4;
+  --gold: #7fc29b; --rot: #e07a6e; --linie: #2e333a; --code: #262a31; --knopf: #2f7a50; --knopf-schrift: #f5f8fb;
+  --knopf-zeiger: #a3262a; color-scheme: dark;
+}
+
+@font-face { font-family: "Alegreya"; src: url("../assets/schrift/alegreya.woff2") format("woff2"); font-weight: 400 900; }
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--grund); color: var(--schrift);
+  font: 16px/1.45 "Alegreya", Georgia, "Times New Roman", serif; }
+.kopf, main, .fuss { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+.kopf { padding-top: 18px; }
+h1 { color: var(--tanne); font-size: 1.9rem; margin: 0; }
+h2 { color: var(--tanne); font-size: 1.3rem; margin: 18px 0 8px; }
+h2::before { content: "✦ "; color: var(--gold); }
+h3 { color: var(--tanne); font-size: 1.05rem; margin: 14px 0 6px; }
+a { color: var(--verweis); }
+.titel { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.leise { color: var(--leise); }
+.plakette { border: 1px solid var(--linie); border-radius: 999px; padding: 1px 10px; font-size: .85rem; color: var(--leise); }
+.leiste { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 10px 0 14px; }
+.raum { flex: 1; }
+button, select, input, textarea { font: inherit; color: var(--schrift); }
+button { background: var(--knopf); color: var(--knopf-schrift); border: 0; border-radius: 6px; padding: 5px 13px;
+  cursor: pointer; }
+button:hover:not(:disabled) { background: var(--knopf-zeiger); }
+button:disabled { opacity: .45; cursor: default; }
+button.leicht { background: transparent; color: var(--verweis); border: 1px solid var(--linie); padding: 2px 9px; }
+button.leicht:hover { background: var(--code); }
+select, input, textarea { background: var(--grund); border: 1px solid var(--linie); border-radius: 5px; padding: 3px 6px; }
+input[type="number"] { width: 6.5em; }
+textarea { width: 100%; min-height: 6em; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .9rem; }
+.karte { background: var(--karte); border: 1px solid var(--linie); border-left: 4px solid var(--gold); border-radius: 8px;
+  padding: 12px 16px; margin: 10px 0; }
+.reiter { display: flex; gap: 2px; border-bottom: 1px solid var(--linie); flex-wrap: wrap; }
+.reiter button { background: transparent; color: var(--leise); border-radius: 6px 6px 0 0; }
+.reiter button.an { background: var(--karte); color: var(--tanne); border: 1px solid var(--linie); border-bottom: 0; }
+.zahl { background: var(--rot); color: #fff; border-radius: 999px; padding: 0 7px; font-size: .8rem; }
+.zahl:empty { display: none; }
+.teil { padding: 6px 0 30px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border-bottom: 1px solid var(--linie); padding: 4px 6px; text-align: left; vertical-align: top; }
+th { color: var(--leise); font-weight: 500; font-size: .9rem; }
+tr.vorgabe td { background: var(--code); }
+tr.gewaehlt td { outline: 2px solid var(--gold); outline-offset: -2px; }
+.feld { display: grid; grid-template-columns: 11em 1fr; gap: 6px 12px; align-items: center; margin: 6px 0; }
+.erklaerung { color: var(--leise); font-size: .85rem; }
+.karte.warnung { border-left-color: var(--rot); }
+progress { width: 100%; max-width: 34em; accent-color: var(--tanne); }
+.fehlerhaft { outline: 2px solid var(--rot) !important; outline-offset: 1px; }
+.fehlerliste li { margin: 3px 0; }
+.fehlerliste code, code { background: var(--code); border-radius: 4px; padding: 0 4px; }
+.bausteine { display: flex; flex-direction: column; gap: 4px; }
+.baustein { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; background: var(--code); border-radius: 6px;
+  padding: 4px 6px; }
+.baustein label { font-size: .85rem; color: var(--leise); }
+.zweispaltig { display: grid; grid-template-columns: minmax(220px, 280px) 1fr; gap: 18px; }
+.zweispaltig > div { min-width: 0; }
+.tabelle { overflow-x: auto; }
+.tabelle table { font-size: .9rem; }
+.tabelle td, .tabelle th { padding: 3px 4px; }
+.tabelle select { max-width: 10.5em; }
+.tabelle input { width: 7em; }
+.vorschau { font-size: .8rem; display: block; max-width: 11em; }
+.baum-spalte { position: sticky; top: 8px; align-self: start; }
+textarea.codeliste { width: 22em; max-width: 100%; }
+textarea.liste { min-height: 2.6em; width: 34em; max-width: 100%; vertical-align: middle; }
+@media (max-width: 860px) { .zweispaltig { grid-template-columns: 1fr; } }
+svg.baum { width: 100%; height: auto; background: var(--karte); border-radius: 8px; }
+svg.baum .licht { cursor: pointer; stroke: var(--schrift); stroke-width: .6; }
+svg.baum .licht.wach { stroke: var(--gold); stroke-width: 2.4; }
+svg.baum .licht.neu { stroke: var(--rot); stroke-width: 3.2; }
+svg.baum text { font-size: 7px; fill: var(--leise); pointer-events: none; }
+.muster img { width: 150px; border-radius: 6px; border: 1px solid var(--linie); background: #fff; }
+.codes td input { width: 7em; font-family: ui-monospace, Menlo, Consolas, monospace; }
+.fuss { padding: 24px 20px 40px; font-size: .85rem; }
+pre { background: var(--code); padding: 8px; border-radius: 6px; overflow: auto; font-size: .85rem; }

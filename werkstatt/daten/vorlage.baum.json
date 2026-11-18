@@ -1,0 +1,297 @@
+{
+  "format": 1,
+  "heft": {
+    "title": "Mein Baum",
+    "user_pattern": 1,
+    "defaults": {
+      "star_hue": "off",
+      "idle": "wink",
+      "on_power_on": [
+        {
+          "action": "power_on"
+        }
+      ],
+      "on_correct_code": [
+        {
+          "action": "play_signal",
+          "signal": "correct"
+        },
+        {
+          "action": "reveal_new_led"
+        }
+      ],
+      "on_note_short": {
+        "action": "play_song",
+        "song": "o_tannenbaum"
+      }
+    },
+    "stages": [
+      {
+        "idle": "dark"
+      },
+      {
+        "new_led": "D20"
+      },
+      {
+        "new_led": "D21"
+      },
+      {
+        "new_led": "GARLAND_LOW"
+      },
+      {
+        "new_led": "GARLAND_HIGH"
+      },
+      {
+        "new_led": "D18"
+      },
+      {
+        "new_led": "D19"
+      },
+      {
+        "new_led": "D22"
+      },
+      {
+        "new_led": "D13"
+      },
+      {
+        "new_led": "D14"
+      },
+      {
+        "new_led": "D11"
+      },
+      {
+        "new_led": "D12"
+      },
+      {
+        "new_led": "D16"
+      },
+      {
+        "new_led": "D17"
+      },
+      {
+        "new_led": "D15"
+      },
+      {
+        "new_led": "D9"
+      },
+      {
+        "new_led": "D10"
+      },
+      {
+        "new_led": "D7"
+      },
+      {
+        "new_led": "D8"
+      },
+      {
+        "new_led": "D4"
+      },
+      {
+        "new_led": "D5"
+      },
+      {
+        "new_led": "D6"
+      },
+      {
+        "new_led": "D2"
+      },
+      {
+        "new_led": "D3"
+      },
+      {
+        "new_led": "D1",
+        "star_hue": "gold",
+        "idle": "gold",
+        "on_correct_code": [
+          {
+            "action": "play_signal",
+            "signal": "correct"
+          },
+          {
+            "action": "run_sequence",
+            "sequence": "bottom_to_top"
+          }
+        ]
+      }
+    ]
+  },
+  "sequences": {
+    "bottom_to_top": [
+      {
+        "op": "repeat",
+        "times": 3,
+        "ops": [
+          {
+            "op": "set_leds",
+            "leds": []
+          },
+          {
+            "op": "star",
+            "hue": "off"
+          },
+          {
+            "op": "wait",
+            "ms": 400
+          },
+          {
+            "op": "leds_on",
+            "leds": [
+              "TIER_1"
+            ]
+          },
+          {
+            "op": "wait",
+            "ms": 300
+          },
+          {
+            "op": "leds_on",
+            "leds": [
+              "TIER_2"
+            ]
+          },
+          {
+            "op": "wait",
+            "ms": 300
+          },
+          {
+            "op": "leds_on",
+            "leds": [
+              "TIER_3"
+            ]
+          },
+          {
+            "op": "wait",
+            "ms": 300
+          },
+          {
+            "op": "leds_on",
+            "leds": [
+              "TIER_4"
+            ]
+          },
+          {
+            "op": "wait",
+            "ms": 300
+          },
+          {
+            "op": "leds_on",
+            "leds": [
+              "TOP"
+            ]
+          },
+          {
+            "op": "star",
+            "hue": "gold"
+          },
+          {
+            "op": "wait",
+            "ms": 800
+          }
+        ]
+      }
+    ]
+  },
+  "songs": {},
+  "codes": {
+    "salt": "5c1e0b7a",
+    "bypass": "00101011",
+    "steps": [
+      {
+        "id": 1,
+        "code": "01001000"
+      },
+      {
+        "id": 2,
+        "code": "10101001"
+      },
+      {
+        "id": 3,
+        "code": "11110110"
+      },
+      {
+        "id": 4,
+        "code": "00111100"
+      },
+      {
+        "id": 5,
+        "code": "11011000"
+      },
+      {
+        "id": 6,
+        "code": "01000111"
+      },
+      {
+        "id": 7,
+        "code": "11011110"
+      },
+      {
+        "id": 8,
+        "code": "10100000"
+      },
+      {
+        "id": 9,
+        "code": "10100011"
+      },
+      {
+        "id": 10,
+        "code": "10010110"
+      },
+      {
+        "id": 11,
+        "code": "01110100"
+      },
+      {
+        "id": 12,
+        "code": "11001001"
+      },
+      {
+        "id": 13,
+        "code": "10011001"
+      },
+      {
+        "id": 14,
+        "code": "11101000"
+      },
+      {
+        "id": 15,
+        "code": "10110111"
+      },
+      {
+        "id": 16,
+        "code": "11000110"
+      },
+      {
+        "id": 17,
+        "code": "11001010"
+      },
+      {
+        "id": 18,
+        "code": "10001000"
+      },
+      {
+        "id": 19,
+        "code": "10000001"
+      },
+      {
+        "id": 20,
+        "code": "00001010"
+      },
+      {
+        "id": 21,
+        "code": "11100010"
+      },
+      {
+        "id": 22,
+        "code": "00101101"
+      },
+      {
+        "id": 23,
+        "code": "01010011"
+      },
+      {
+        "id": 24,
+        "code": "00011110"
+      }
+    ]
+  }
+}

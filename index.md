@@ -106,6 +106,18 @@ Ton, und er bleibt im Wahlmodus. Wer ohne Wahl hinaus will, zieht den Stecker; g
 
 Alles Weitere steht hinten in jedem Heft unter **Technik und Bedienung**.
 
+## Ein eigenes Heft
+
+In der [Baum-Werkstatt](werkstatt/) machst du selbst ein Heft für den Baum: was er an jedem der 24 Tage zeigt, welche
+Lichter, welche Lieder. Die Werkstatt läuft im Browser, ohne Konto, und dein Heft bleibt als Datei auf deinem Rechner.
+Die Codes der Tage würfelt sie, dein Heft bekommt ein eigenes Startbild samt Code für den Wahlmodus, und für das
+gedruckte Heft gibt es Vorlagen für Word und LibreOffice.
+
+- **Auf den Baum** kommt dein Heft aus Chrome oder Edge: den Baum aus dem Hügel nehmen, die Note halten und das Kabel
+  vom Rechner in die kleine Buchse unten am Stamm stecken. In anderen Browsern kannst du dein Heft bearbeiten und
+  speichern, aber nicht aufspielen.
+- **Einstellen** wie jedes Heft im Wahlmodus, mit dem Code unter deinem Startbild.
+
 ## Hilfe
 
 Häufige Fragen stehen auf der Seite des Hefts. Klemmt etwas, ist etwas unklar oder hast du eine Idee, schreib auf
