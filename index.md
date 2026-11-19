@@ -32,7 +32,7 @@ Hat dich ein Heft hierher geschickt? Hier geht es zu seiner Seite.
   <span class="heft-text">
     <span class="heft-name">Der strahlende Baum</span>
     <span class="heft-art">Python, Band 3</span>
-    <span class="heft-satz">In der Himmelswerkstatt werden Bäume nach Plänen gebaut. Im dritten Band schreibst du welche.</span>
+    <span class="heft-satz">Im dritten Band schreibst du die Pläne, nach denen in der Himmelswerkstatt Bäume entstehen.</span>
   </span>
 </a>
 <a class="heft" href="singender-baum/">
