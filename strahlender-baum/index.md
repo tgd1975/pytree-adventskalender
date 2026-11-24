@@ -46,6 +46,21 @@ Jedes Heft behält dabei seinen eigenen Stand. So sieht der Baum aus, wenn er au
 
 <img src="../assets/startbild/strahlender-baum.svg" alt="Startbild: beide Lichterketten, dazu drei rote Lichter: rechts in der dritten Etage, rechts in der vierten und ganz oben an der Spitze." width="264" height="358">
 
+## Der Baum am Bildschirm
+
+Ohne Baum geht es auch: Die Erweiterung gibt es in einer Fassung, die den Baum mitbringt. Er steht in VS Code neben
+deinem Programm, mit denselben acht Schaltern und zwei Knöpfen wie der echte. Du stellst den Code des Tages mit der
+Maus ein, drückst **Bestätigen**, und er antwortet mit Licht und Ton.
+
+<img src="../assets/baum-am-bildschirm/strahlender-baum.png" alt="Ein Fenster von VS Code: links die loesung.py eines Türchens, rechts der Baum am Bildschirm im Startbild dieses Hefts; darunter Stecker, acht Schalter und die Knöpfe Bestätigen und Note." width="720" height="369">
+
+[pytree-strahlender-baum-simulator.vsix](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/pytree-strahlender-baum-simulator.vsix) herunterladen, dann in VS Code: **Erweiterungen → … → Aus VSIX installieren** (englisch
+**Install from VSIX**). VS Code und Python müssen dafür schon da sein, selbst installiert oder mit einer
+Installationsdatei von oben. Hast du die Erweiterung schon, ersetzt diese Fassung sie; deine Lösungen und dein
+Fortschritt bleiben. Das Heft liegt als PDF darin, am Tor der Werkstatt öffnet es der Knopf **Das Heft lesen**. Eine
+Installationsdatei holt immer die Fassung ohne Baum: Führst du später eine noch einmal aus, installierst du danach
+diese Datei neu.
+
 ## Wenn etwas klemmt
 
 Klemmt etwas, ist etwas unklar oder hast du eine Idee, schreib auf GitHub ein

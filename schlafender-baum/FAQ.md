@@ -37,6 +37,14 @@ und **Python suchen** drücken.
 Ein VS Code aus Flathub sieht das Python des Systems nur über Umwege. Nimm VS Code als `.deb` von
 [code.visualstudio.com](https://code.visualstudio.com/), als Snap oder über die Installationsdatei.
 
+### Ohne Baum mitmachen
+
+Dafür gibt es die Erweiterung in einer Fassung mit dem [Baum am Bildschirm](index.md#der-baum-am-bildschirm). Er steht
+in VS Code neben deinem Programm und wird bedient wie der echte: Stecker, acht Schalter, zwei Knöpfe. Zwischen den
+beiden Fassungen kannst du jederzeit wechseln; deine Lösungen und dein Fortschritt in VS Code bleiben. Jeder Baum
+merkt sich aber seinen eigenen Stand, auch der am Bildschirm. Was einer noch nicht kennt, gibst du ihm der Reihe nach
+ein; die Codes stehen in VS Code bei jedem gelösten Türchen.
+
 ## Unterwegs
 
 ### Wo liegt meine Arbeit?

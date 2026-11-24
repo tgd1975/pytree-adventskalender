@@ -238,15 +238,15 @@ code {
 }
 
 /* Die Installationsdateien als Knöpfe */
-a[href$=".cmd"], a[href$=".sh"] {
+a[href$=".cmd"], a[href$=".sh"], a[href$=".vsix"] {
   display: inline-block; margin: .35rem 0 .25rem;
   padding: .45rem 1rem; border-radius: .5rem;
   background: var(--knopf); color: var(--knopf-schrift);
   font-weight: 700; text-decoration: none;
   box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
 }
-a[href$=".cmd"]::before, a[href$=".sh"]::before { content: "⬇ "; }
-a[href$=".cmd"]:hover, a[href$=".sh"]:hover { background: var(--knopf-zeiger); color: var(--knopf-schrift); }
+a[href$=".cmd"]::before, a[href$=".sh"]::before, a[href$=".vsix"]::before { content: "⬇ "; }
+a[href$=".cmd"]:hover, a[href$=".sh"]:hover, a[href$=".vsix"]:hover { background: var(--knopf-zeiger); color: var(--knopf-schrift); }
 
 /* Der Absatz „Vor dir steht …“ auf der Seite von Heft 1 als Karte */
 .bereich-schlafender-baum .start h1 + p + p + p {
