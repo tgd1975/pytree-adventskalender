@@ -76,8 +76,8 @@ Der Flyer zeigt auf einer Seite A4, was der strahlende Baum ist – zum Verschic
 Die Flyer der anderen Hefte stehen auf der [Startseite](../#flyer-zum-weitergeben).
 
 <div class="flyer flyer-einzeln">
-<a class="flyer-karte" href="../flyer/strahlender-baum.pdf" download="flyer-strahlender-baum.pdf">
-  <img src="../flyer/strahlender-baum.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="../flyer/strahlender-baum.pdf?v=ecddc525" download="flyer-strahlender-baum.pdf">
+  <img src="../flyer/strahlender-baum.webp?v=ecddc525" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Der strahlende Baum</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>

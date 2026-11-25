@@ -267,8 +267,8 @@ Der Flyer zeigt auf einer Seite A4, was der singende Baum ist – zum Verschicke
 Die Flyer der anderen Hefte stehen auf der [Startseite](../#flyer-zum-weitergeben).
 
 <div class="flyer flyer-einzeln">
-<a class="flyer-karte" href="../flyer/singender-baum.pdf" download="flyer-singender-baum.pdf">
-  <img src="../flyer/singender-baum.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="../flyer/singender-baum.pdf?v=bc00c74d" download="flyer-singender-baum.pdf">
+  <img src="../flyer/singender-baum.webp?v=bc00c74d" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Der singende Baum</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>

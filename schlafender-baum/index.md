@@ -77,8 +77,8 @@ Der Flyer zeigt auf einer Seite A4, was der schlafende Baum ist – zum Verschic
 Die Flyer der anderen Hefte stehen auf der [Startseite](../#flyer-zum-weitergeben).
 
 <div class="flyer flyer-einzeln">
-<a class="flyer-karte" href="../flyer/schlafender-baum.pdf" download="flyer-schlafender-baum.pdf">
-  <img src="../flyer/schlafender-baum.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="../flyer/schlafender-baum.pdf?v=725b4483" download="flyer-schlafender-baum.pdf">
+  <img src="../flyer/schlafender-baum.webp?v=725b4483" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Der schlafende Baum</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>

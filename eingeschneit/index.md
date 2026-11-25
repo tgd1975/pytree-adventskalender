@@ -119,8 +119,8 @@ Der Flyer zeigt auf einer Seite A4, was Eingeschneit ist – zum Verschicken ode
 Die Flyer der anderen Hefte stehen auf der [Startseite](../#flyer-zum-weitergeben).
 
 <div class="flyer flyer-einzeln">
-<a class="flyer-karte" href="../flyer/eingeschneit.pdf" download="flyer-eingeschneit.pdf">
-  <img src="../flyer/eingeschneit.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="../flyer/eingeschneit.pdf?v=c13a8a89" download="flyer-eingeschneit.pdf">
+  <img src="../flyer/eingeschneit.webp?v=c13a8a89" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Eingeschneit auf der Hohen Wand</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>

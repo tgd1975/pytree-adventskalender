@@ -77,8 +77,8 @@ Der Flyer zeigt auf einer Seite A4, was der wachende Baum ist – zum Verschicke
 Die Flyer der anderen Hefte stehen auf der [Startseite](../#flyer-zum-weitergeben).
 
 <div class="flyer flyer-einzeln">
-<a class="flyer-karte" href="../flyer/wachender-baum.pdf" download="flyer-wachender-baum.pdf">
-  <img src="../flyer/wachender-baum.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="../flyer/wachender-baum.pdf?v=c14e3f2a" download="flyer-wachender-baum.pdf">
+  <img src="../flyer/wachender-baum.webp?v=c14e3f2a" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Der wachende Baum</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>

@@ -128,38 +128,38 @@ Je Heft ein Flyer, dazu einer für den Baum mit allen Heften und einer für die 
 Seite A4, zum Verschicken oder Ausdrucken.
 
 <div class="flyer">
-<a class="flyer-karte" href="flyer/pytree.pdf" download="flyer-pytree.pdf">
-  <img src="flyer/pytree.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="flyer/pytree.pdf?v=2501f7dd" download="flyer-pytree.pdf">
+  <img src="flyer/pytree.webp?v=2501f7dd" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Der Baum und alle Hefte</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>
-<a class="flyer-karte" href="flyer/schlafender-baum.pdf" download="flyer-schlafender-baum.pdf">
-  <img src="flyer/schlafender-baum.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="flyer/schlafender-baum.pdf?v=725b4483" download="flyer-schlafender-baum.pdf">
+  <img src="flyer/schlafender-baum.webp?v=725b4483" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Der schlafende Baum</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>
-<a class="flyer-karte" href="flyer/wachender-baum.pdf" download="flyer-wachender-baum.pdf">
-  <img src="flyer/wachender-baum.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="flyer/wachender-baum.pdf?v=c14e3f2a" download="flyer-wachender-baum.pdf">
+  <img src="flyer/wachender-baum.webp?v=c14e3f2a" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Der wachende Baum</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>
-<a class="flyer-karte" href="flyer/strahlender-baum.pdf" download="flyer-strahlender-baum.pdf">
-  <img src="flyer/strahlender-baum.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="flyer/strahlender-baum.pdf?v=ecddc525" download="flyer-strahlender-baum.pdf">
+  <img src="flyer/strahlender-baum.webp?v=ecddc525" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Der strahlende Baum</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>
-<a class="flyer-karte" href="flyer/singender-baum.pdf" download="flyer-singender-baum.pdf">
-  <img src="flyer/singender-baum.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="flyer/singender-baum.pdf?v=bc00c74d" download="flyer-singender-baum.pdf">
+  <img src="flyer/singender-baum.webp?v=bc00c74d" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Der singende Baum</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>
-<a class="flyer-karte" href="flyer/eingeschneit.pdf" download="flyer-eingeschneit.pdf">
-  <img src="flyer/eingeschneit.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="flyer/eingeschneit.pdf?v=c13a8a89" download="flyer-eingeschneit.pdf">
+  <img src="flyer/eingeschneit.webp?v=c13a8a89" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Eingeschneit auf der Hohen Wand</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>
-<a class="flyer-karte" href="flyer/baum-werkstatt.pdf" download="flyer-baum-werkstatt.pdf">
-  <img src="flyer/baum-werkstatt.webp" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="flyer/baum-werkstatt.pdf?v=1e20499d" download="flyer-baum-werkstatt.pdf">
+  <img src="flyer/baum-werkstatt.webp?v=1e20499d" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Die Baum-Werkstatt</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>
