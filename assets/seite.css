@@ -213,6 +213,8 @@ body {
 
 .bild { max-width: 44rem; margin: 1.5rem auto 0; padding: 0 1.25rem; }
 .bild img { display: block; width: 100%; height: auto; border-radius: .75rem; }
+/* das Foto vom echten Baum: freigestellt und durchsichtig, liegt auf dem Grund des Bereichs, hell wie dunkel */
+.foto { display: block; width: min(100%, 22rem); height: auto; margin: 1.5rem auto .5rem; }
 
 main { padding-top: 1rem; padding-bottom: 3rem; }
 h1, h2, h3 { color: var(--tanne); line-height: 1.2; font-weight: 700; }

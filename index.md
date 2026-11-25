@@ -6,6 +6,8 @@ Ein kleiner Baum aus Leiterplatten, mit dreißig Lichtern, einem Stern und einer
 ein Adventskalender für sich: 24 Tage, jeden Tag ein Code. Den stellst du hinten am Baum ein, und der Baum antwortet.
 Für jedes neue Heft bleibt es derselbe Baum.
 
+<img class="foto" src="assets/foto/baum.webp" alt="Der Baum aus Leiterplatten steht in seinem weißen Schneehügel, davor zwei Geschenke und kleine Tannen. Alle Lichter sind aus, nur der Stern an der Spitze leuchtet blau." width="733" height="1000">
+
 ## Ein Baum, fünf Hefte
 
 Hat dich ein Heft hierher geschickt? Hier geht es zu seiner Seite.

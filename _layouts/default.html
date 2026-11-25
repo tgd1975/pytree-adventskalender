@@ -13,6 +13,14 @@
   {%- endif %}
   <meta name="description" content="{{ page.beschreibung }}">
   <meta name="color-scheme" content="light dark">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.url == '/' %}{{ site.title }} – {{ site.description }}{% else %}{{ seitentitel }}{% endif %}">
+  <meta property="og:description" content="{{ page.beschreibung }}">
+  <meta property="og:image" content="{{ '/assets/foto/vorschau.jpg' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Der Baum aus Leiterplatten in seinem Schneehügel, nur der Stern leuchtet blau.">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="{{ '/assets/stern.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/seite.css' | relative_url }}">
 </head>

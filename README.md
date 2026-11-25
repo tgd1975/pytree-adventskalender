@@ -2,6 +2,8 @@
 
 *Ein Baum, viele Hefte.*
 
+<p align="center"><img src="assets/foto/baum.webp" alt="Der Baum aus Leiterplatten steht in seinem weißen Schneehügel, davor zwei Geschenke und kleine Tannen. Alle Lichter sind aus, nur der Stern an der Spitze leuchtet blau." width="360"></p>
+
 Ein kleiner Baum aus Leiterplatten, mit dreißig Lichtern, einem Stern und einer Stimme. Zu ihm gehören Hefte, jedes
 ein Adventskalender für sich: 24 Tage, jeden Tag ein Code, den du hinten am Baum einstellst.
 
