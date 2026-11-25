@@ -24,6 +24,10 @@ Malen kann jedes Alter. Den Baum bedient, wer schon 14 ist.
 
 Stimmen die Schalter, piept der Baum, und das neue Licht blinkt dreimal. Dann tanzen alle Lichter, und er singt das Lied von heute. Danach brennt ein Licht mehr als gestern, und der Stern wandert ein Stück von Blau nach Orange. Stimmen sie nicht, blinkt der Stern dreimal rot; dann die Schalter noch einmal einstellen. Ist ein Tag ausgelassen, will der Baum zuerst dessen Code: Die Tage kommen der Reihe nach. Kennt er den Code schon, zwinkert das neueste Licht zweimal. Am 24. gehen die Lichter Etage für Etage an, der Stern wird golden, und der Baum singt das ganze „O Tannenbaum“. „Stille Nacht“ singt er mit dem Knopf mit der Note.
 
+## Ein Blick ins Malheft
+
+<figure class="malseite"><img src="malseite.svg" alt="Die Malseite des 2. Dezembers: oben links die Zahl im Stern, oben rechts das Bild zum Lied, unten links das Bild der acht Schalter, sonst eine leere Fläche mit feinem Rahmen." width="594" height="420"><figcaption>Der 2. Dezember: links oben die Zahl im Stern, rechts oben das Bild zum Lied „Schneeflöckchen, Weißröckchen“, links unten der Code als Bild der Schalter. Der Rest der Seite ist zum Malen.</figcaption></figure>
+
 ## Die 24 Tage
 
 Zu jedem Tag der Baum, wie er dann leuchtet, und das Lied zum Anhören.
@@ -256,5 +260,18 @@ Malseite, einseitig auf A4 quer, ohne die leeren Rückseiten. Die Codes stehen a
 
 Wer im nächsten Jahr neu anfangen will: Bestätigen und den Knopf mit der Note zusammen 5 Sekunden halten. Drei Töne
 von hoch nach tief, und der Baum steht wieder vor dem ersten Tag.
+
+## Zum Weitergeben
+
+Der Flyer zeigt auf einer Seite A4, was der singende Baum ist – zum Verschicken oder Ausdrucken.
+Die Flyer der anderen Hefte stehen auf der [Startseite](../#flyer-zum-weitergeben).
+
+<div class="flyer flyer-einzeln">
+<a class="flyer-karte" href="../flyer/singender-baum.pdf" download="flyer-singender-baum.pdf">
+  <img src="../flyer/singender-baum.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Der singende Baum</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+</div>
 
 Zurück zu [allen Heften](../).

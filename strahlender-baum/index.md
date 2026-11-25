@@ -52,7 +52,7 @@ Ohne Baum geht es auch: Die Erweiterung gibt es in einer Fassung, die den Baum m
 deinem Programm, mit denselben acht Schaltern und zwei Knöpfen wie der echte. Du stellst den Code des Tages mit der
 Maus ein, drückst **Bestätigen**, und er antwortet mit Licht und Ton.
 
-<img src="../assets/baum-am-bildschirm/strahlender-baum.png" alt="Ein Fenster von VS Code: links die loesung.py eines Türchens, rechts der Baum am Bildschirm im Startbild dieses Hefts; darunter Stecker, acht Schalter und die Knöpfe Bestätigen und Note." width="720" height="369">
+<img src="../assets/baum-am-bildschirm/strahlender-baum.png" alt="Ein Fenster von VS Code: links die Lösungsdatei eines Türchens, rechts der Baum am Bildschirm im Startbild dieses Hefts; darunter Stecker, acht Schalter und die Knöpfe Bestätigen und Note." width="720" height="369">
 
 [pytree-strahlender-baum-simulator.vsix](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/pytree-strahlender-baum-simulator.vsix) herunterladen, dann in VS Code: **Erweiterungen → … → Aus VSIX installieren** (englisch
 **Install from VSIX**). VS Code und Python müssen dafür schon da sein, selbst installiert oder mit einer
@@ -60,6 +60,28 @@ Installationsdatei von oben. Hast du die Erweiterung schon, ersetzt diese Fassun
 Fortschritt bleiben. Das Heft liegt als PDF darin, am Tor der Werkstatt öffnet es der Knopf **Das Heft lesen**. Eine
 Installationsdatei holt immer die Fassung ohne Baum: Führst du später eine noch einmal aus, installierst du danach
 diese Datei neu.
+
+## Ein Blick in Türchen 3 – Jedes Stück weiß sein Licht
+
+So sieht ein Türchen aus: ein Beispiel aus „Was du heute lernst“, darunter der erste Auftrag und daneben, was dein Programm dann ausgibt.
+
+<div class="probe">
+<pre>class Stern:&#10;  def __init__(self, farbe):&#10;    self.farbe = farbe&#10;&#10;oben = Stern(<span class="str">"gold"</span>)&#10;print(oben.farbe)</pre>
+<div class="zwei"><p>Schreib den Bauplan <code>Kerze</code> mit einem <code>__init__</code>, das <code>licht</code> bekommt. Jede neue Kerze merkt sich ihr Licht in <code>self.licht</code> und ist aus: <code>self.an = False</code>. Bau <code>Kerze(7)</code> und <code>Kerze(15)</code> und gib beide aus:</p><pre class="aus">Kerze 7, an: False&#10;Kerze 15, an: False</pre></div>
+</div>
+
+## Zum Weitergeben
+
+Der Flyer zeigt auf einer Seite A4, was der strahlende Baum ist – zum Verschicken oder Ausdrucken.
+Die Flyer der anderen Hefte stehen auf der [Startseite](../#flyer-zum-weitergeben).
+
+<div class="flyer flyer-einzeln">
+<a class="flyer-karte" href="../flyer/strahlender-baum.pdf" download="flyer-strahlender-baum.pdf">
+  <img src="../flyer/strahlender-baum.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Der strahlende Baum</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+</div>
 
 ## Wenn etwas klemmt
 

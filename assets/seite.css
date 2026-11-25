@@ -284,6 +284,46 @@ a.heft:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 .startbilder figcaption { padding: .5rem .8rem .7rem; font-size: .95rem; line-height: 1.4; }
 .startbilder figcaption b { display: block; color: var(--tanne); }
 
+/* Die Flyer zum Herunterladen: die erste Seite als Blatt Papier, darunter Name und Art; auf der Startseite alle, auf
+   der Unterseite eines Hefts seiner (Basis der Gestaltung, Abschnitt 9). Das Blatt bleibt auch im Dunkeln, wie es ist. */
+.flyer { display: grid; grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr)); gap: 1.25rem 1rem; margin: 1rem 0 1.5rem; }
+.flyer-einzeln { grid-template-columns: minmax(0, 12rem); }
+.flyer-karte { display: block; color: inherit; text-decoration: none; }
+.flyer-karte img {
+  display: block; width: 100%; height: auto; aspect-ratio: 210 / 297; background: #ffffff;
+  border: 1px solid var(--linie); border-radius: .25rem; box-shadow: 0 2px 6px rgba(0, 0, 0, .14);
+}
+a.flyer-karte:hover img { border-color: var(--gold); box-shadow: 0 3px 12px rgba(0, 0, 0, .24); }
+a.flyer-karte:hover .flyer-name { color: var(--rot); }
+a.flyer-karte:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: .25rem; }
+.flyer-name { display: block; margin-top: .55rem; font-weight: 700; font-size: 1rem; color: var(--tanne); line-height: 1.3; }
+.flyer-name::before { content: "⬇ "; color: var(--gold); }
+.flyer-art { display: block; font-size: .9rem; color: var(--leise); }
+
+/* Das Beispiel vom Flyer auf der Unterseite eines Hefts. Python-Hefte: ein Blick in ein Türchen – das Beispiel, links
+   darunter der erste Auftrag, rechts die Ausgabe. Der singende Baum: eine Malseite, auf Weiß wie das Papier. */
+.probe pre {
+  font: .85rem/1.5 ui-monospace, "DejaVu Sans Mono", Consolas, monospace; margin: 0 0 1rem; padding: .7rem 1rem;
+  background: var(--code); color: var(--schrift); border-left: 4px solid var(--gold); border-radius: .4rem;
+  overflow-x: auto;
+}
+.probe .str { color: var(--rot); }
+.probe .kom { color: var(--leise); font-style: italic; }
+.probe .zwei { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1rem; align-items: start; }
+.probe .zwei p { margin: 0; }
+.probe pre.aus { background: var(--karte); border: 1px solid var(--linie); border-left: 4px solid var(--linie); }
+.probe .buch { font-style: italic; color: var(--leise); margin-bottom: .8rem; }
+.probe .buch b { font-style: normal; color: var(--schrift); }
+.malseite { margin: 1rem 0 1.5rem; }
+.malseite img {
+  display: block; width: 100%; max-width: 32rem; height: auto; background: #ffffff; padding: .5rem;
+  border: 1px solid var(--linie); border-radius: .4rem;
+}
+.malseite figcaption { margin-top: .5rem; font-size: 1rem; color: var(--leise); }
+@media (max-width: 34rem) {
+  .probe .zwei { grid-template-columns: 1fr; }
+}
+
 /* Der singende Baum: die 24 Tage als Karten – links der Baum des Tages, rechts Bild, Zahl, Titel, das Lied zum
    Anhören und die Idee zum Malen (Gestaltung des singenden Baums, Abschnitt 9) */
 .tage { display: grid; gap: 1rem; margin: 1rem 0 1.5rem; }

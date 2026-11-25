@@ -52,7 +52,7 @@ Ohne Baum geht es auch: Die Erweiterung gibt es in einer Fassung, die den Baum m
 deinem Programm, mit denselben acht Schaltern und zwei Knöpfen wie der echte. Du stellst den Code des Tages mit der
 Maus ein, drückst **Bestätigen**, und er antwortet mit Licht und Ton.
 
-<img src="../assets/baum-am-bildschirm/wachender-baum.png" alt="Ein Fenster von VS Code: links die loesung.py eines Türchens, rechts der Baum am Bildschirm im Startbild dieses Hefts; darunter Stecker, acht Schalter und die Knöpfe Bestätigen und Note." width="720" height="369">
+<img src="../assets/baum-am-bildschirm/wachender-baum.png" alt="Ein Fenster von VS Code: links die Lösungsdatei eines Türchens, rechts der Baum am Bildschirm im Startbild dieses Hefts; darunter Stecker, acht Schalter und die Knöpfe Bestätigen und Note." width="720" height="369">
 
 [pytree-wachender-baum-simulator.vsix](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/pytree-wachender-baum-simulator.vsix) herunterladen, dann in VS Code: **Erweiterungen → … → Aus VSIX installieren** (englisch
 **Install from VSIX**). VS Code und Python müssen dafür schon da sein, selbst installiert oder mit einer
@@ -60,6 +60,29 @@ Installationsdatei von oben. Hast du die Erweiterung schon, ersetzt diese Fassun
 Fortschritt bleiben. Das Heft liegt als PDF darin, am Tor der Werkstatt öffnet es der Knopf **Das Heft lesen**. Eine
 Installationsdatei holt immer die Fassung ohne Baum: Führst du später eine noch einmal aus, installierst du danach
 diese Datei neu.
+
+## Ein Blick in Türchen 5 – Gold sind drei Zahlen
+
+So sieht ein Türchen aus: ein Beispiel aus „Was du heute lernst“, darunter der erste Auftrag und daneben, was dein Programm dann ausgibt.
+
+<div class="probe">
+<p class="buch"><b>Aus dem Buch der Kunststücke, Seite 5:</b> „Gold sind drei Zahlen…“</p>
+<pre>SCHNEE = (250, 250, 255)&#10;print(SCHNEE)          <span class="kom"># (250, 250, 255)</span>&#10;print(SCHNEE[0])       <span class="kom"># 250</span></pre>
+<div class="zwei"><p>Leg das Gold des Sterns in ein Tupel <code>GOLD = (255, 180, 0)</code> und gib es aus. Nimm es dann mit <code>rot, gruen, blau = GOLD</code> auseinander und schreib die drei Anteile in eine Zeile:</p><pre class="aus">(255, 180, 0)&#10;Rot 255, Grün 180, Blau 0</pre></div>
+</div>
+
+## Zum Weitergeben
+
+Der Flyer zeigt auf einer Seite A4, was der wachende Baum ist – zum Verschicken oder Ausdrucken.
+Die Flyer der anderen Hefte stehen auf der [Startseite](../#flyer-zum-weitergeben).
+
+<div class="flyer flyer-einzeln">
+<a class="flyer-karte" href="../flyer/wachender-baum.pdf" download="flyer-wachender-baum.pdf">
+  <img src="../flyer/wachender-baum.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Der wachende Baum</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+</div>
 
 ## Wenn etwas klemmt
 

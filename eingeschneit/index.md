@@ -82,18 +82,19 @@ Den Code stellst du an den acht Schaltern hinten am Baum ein, an heißt ON, und 
 - **Stimmt er nicht,** blinkt der Stern rot, und es kommt ein tiefer Ton.
 - **Ein Tag nach dem anderen:** Der Baum nimmt immer nur den Code des nächsten Tags an.
 
-Was der Baum vor dem ersten richtigen Code tut, gehört zur Geschichte.
+Was der Baum nach dem Startbild und vor dem ersten richtigen Code tut, gehört zur Geschichte.
 
-Beim Einstecken zeigt er 5 s lang sein Startbild: die zwei Lichterketten, dazu ein goldenes Licht links in der
-ersten Etage, ein gelbes links in der zweiten und ein grünes in der Mitte der vierten. Zeigt er ein anderes, gehört
-er gerade zu einem anderen Heft; wie du ihn umstellst, steht hinten unter „Technik und Bedienung“.
+Beim Einstecken zeigt er 3 s lang sein Startbild: die zwei Lichterketten, dazu ein goldenes Licht links in der
+ersten Etage, ein gelbes links in der zweiten und ein grünes in der Mitte der vierten. Danach ist er 2 s dunkel.
+Zeigt er ein anderes Startbild, gehört er gerade zu einem anderen Heft; wie du ihn umstellst, steht hinten unter
+„Technik und Bedienung“.
 
 ## Der Baum und sein Heft
 
 Zum Baum gibt es mehr als ein Heft, und er muss wissen, zu welchem er gerade gehört. Jedes Heft hat seinen eigenen
 Stand: Was der Baum in einem anderen Heft gelernt hat, bleibt dort, auch während er hier Codes prüft.
 
-**Das Startbild:** Gleich nach dem Einstecken zeigt der Baum 5 s lang, welches Heft eingestellt ist. Alles ist aus,
+**Das Startbild:** Gleich nach dem Einstecken zeigt der Baum 3 s lang, welches Heft eingestellt ist, dann ist er 2 s dunkel. Alles ist aus,
 auch der Stern. Nur die zwei Lichterketten leuchten ruhig, dazu drei einzelne Lichter. Bei diesem Heft sind es, von
 vorne und von unten gezählt, ein goldenes links in der ersten Etage, ein gelbes links in der zweiten und ein grünes
 in der Mitte der vierten. Die anderen Hefte haben drei andere.
@@ -111,6 +112,19 @@ in der Mitte der vierten. Die anderen Hefte haben drei andere.
 Zu einem anderen Heft geht es genauso, mit dessen Code; er steht in jenem Heft unter „Technik und Bedienung“. Dort
 ist der Baum dann so weit wie vorher. Kennt der Baum einen Code nicht, blinkt der Stern dreimal rot, dazu ein tiefer
 Ton, und er bleibt im Wahlmodus. Wer ohne Wahl hinaus will, zieht den Stecker; geändert ist dann nichts.
+
+## Zum Weitergeben
+
+Der Flyer zeigt auf einer Seite A4, was Eingeschneit ist – zum Verschicken oder Ausdrucken.
+Die Flyer der anderen Hefte stehen auf der [Startseite](../#flyer-zum-weitergeben).
+
+<div class="flyer flyer-einzeln">
+<a class="flyer-karte" href="../flyer/eingeschneit.pdf" download="flyer-eingeschneit.pdf">
+  <img src="../flyer/eingeschneit.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Eingeschneit auf der Hohen Wand</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+</div>
 
 ## Hilfe und Berichtigungen
 

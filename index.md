@@ -59,8 +59,9 @@ Hat dich ein Heft hierher geschickt? Hier geht es zu seiner Seite.
 
 ## Welches Heft ist eingestellt?
 
-Gleich nach dem Einstecken zeigt der Baum 5 Sekunden lang, zu welchem Heft er gerade gehört. Alles ist aus, auch der
-Stern. Nur die zwei Lichterketten leuchten ruhig, dazu drei einzelne Lichter, bei jedem Heft andere.
+Gleich nach dem Einstecken zeigt der Baum 3 Sekunden lang, zu welchem Heft er gerade gehört. Alles ist aus, auch der
+Stern. Nur die zwei Lichterketten leuchten ruhig, dazu drei einzelne Lichter, bei jedem Heft andere. Danach ist er
+2 Sekunden dunkel.
 
 <div class="startbilder">
 <figure>
@@ -121,6 +122,53 @@ gedruckte Heft gibt es Vorlagen für Word und LibreOffice.
   vom Rechner in die kleine Buchse unten am Stamm stecken. In anderen Browsern kannst du dein Heft bearbeiten und
   speichern, aber nicht aufspielen.
 - **Einstellen** wie jedes Heft im Wahlmodus, mit dem Code unter deinem Startbild.
+
+<!-- FLYER: ERZEUGT von basis/flyer/auf_die_seite.py im Repo pytree – dort ändern und neu bauen. -->
+
+## Flyer zum Weitergeben
+
+Je Heft ein Flyer, dazu einer für den Baum mit allen Heften und einer für die Baum-Werkstatt: jeweils eine
+Seite A4, zum Verschicken oder Ausdrucken.
+
+<div class="flyer">
+<a class="flyer-karte" href="flyer/pytree.pdf" download="flyer-pytree.pdf">
+  <img src="flyer/pytree.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Der Baum und alle Hefte</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+<a class="flyer-karte" href="flyer/schlafender-baum.pdf" download="flyer-schlafender-baum.pdf">
+  <img src="flyer/schlafender-baum.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Der schlafende Baum</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+<a class="flyer-karte" href="flyer/wachender-baum.pdf" download="flyer-wachender-baum.pdf">
+  <img src="flyer/wachender-baum.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Der wachende Baum</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+<a class="flyer-karte" href="flyer/strahlender-baum.pdf" download="flyer-strahlender-baum.pdf">
+  <img src="flyer/strahlender-baum.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Der strahlende Baum</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+<a class="flyer-karte" href="flyer/singender-baum.pdf" download="flyer-singender-baum.pdf">
+  <img src="flyer/singender-baum.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Der singende Baum</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+<a class="flyer-karte" href="flyer/eingeschneit.pdf" download="flyer-eingeschneit.pdf">
+  <img src="flyer/eingeschneit.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Eingeschneit auf der Hohen Wand</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+<a class="flyer-karte" href="flyer/baum-werkstatt.pdf" download="flyer-baum-werkstatt.pdf">
+  <img src="flyer/baum-werkstatt.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Die Baum-Werkstatt</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+</div>
+
+<!-- /FLYER -->
 
 ## Hilfe
 

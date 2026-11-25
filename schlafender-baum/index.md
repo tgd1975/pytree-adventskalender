@@ -53,7 +53,7 @@ Ohne Baum geht es auch: Die Erweiterung gibt es in einer Fassung, die den Baum m
 deinem Programm, mit denselben acht Schaltern und zwei Knöpfen wie der echte. Du stellst den Code des Tages mit der
 Maus ein, drückst **Bestätigen**, und er antwortet mit Licht und Ton.
 
-<img src="../assets/baum-am-bildschirm/schlafender-baum.png" alt="Ein Fenster von VS Code: links die loesung.py eines Türchens, rechts der Baum am Bildschirm im Startbild dieses Hefts; darunter Stecker, acht Schalter und die Knöpfe Bestätigen und Note." width="720" height="369">
+<img src="../assets/baum-am-bildschirm/schlafender-baum.png" alt="Ein Fenster von VS Code: links die Lösungsdatei eines Türchens, rechts der Baum am Bildschirm im Startbild dieses Hefts; darunter Stecker, acht Schalter und die Knöpfe Bestätigen und Note." width="720" height="369">
 
 [pytree-adventskalender-simulator.vsix](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/pytree-adventskalender-simulator.vsix) herunterladen, dann in VS Code: **Erweiterungen → … → Aus VSIX installieren** (englisch
 **Install from VSIX**). VS Code und Python müssen dafür schon da sein, selbst installiert oder mit einer
@@ -61,6 +61,28 @@ Installationsdatei von oben. Hast du die Erweiterung schon, ersetzt diese Fassun
 Fortschritt bleiben. Das Heft liegt als PDF darin, am Tor der Werkstatt öffnet es der Knopf **Das Heft lesen**. Eine
 Installationsdatei holt immer die Fassung ohne Baum: Führst du später eine noch einmal aus, installierst du danach
 diese Datei neu.
+
+## Ein Blick in Türchen 12 – Die Keksdose
+
+So sieht ein Türchen aus: ein Beispiel aus „Was du heute lernst“, darunter der erste Auftrag und daneben, was dein Programm dann ausgibt.
+
+<div class="probe">
+<pre>kerzen = [<span class="str">"rot"</span>, <span class="str">"grün"</span>, <span class="str">"gold"</span>]&#10;print(len(kerzen))   <span class="kom"># 3 – so viele Einträge</span>&#10;print(kerzen[0])     <span class="kom"># rot – der erste, wie bei Strings</span>&#10;print(kerzen[-1])    <span class="kom"># gold – der letzte (-1 zählt von hinten)</span></pre>
+<div class="zwei"><p>Leg diese vier Sorten in genau dieser Reihenfolge in eine Liste <code>kekse</code>: <code>Vanillekipferl</code>, <code>Zimtsterne</code>, <code>Linzer Augen</code>, <code>Kokosbusserl</code>. Gib aus, wie viele Sorten es sind, welche die erste und welche die letzte ist:</p><pre class="aus">Sorten: 4&#10;Erste Sorte: Vanillekipferl&#10;Letzte Sorte: Kokosbusserl</pre></div>
+</div>
+
+## Zum Weitergeben
+
+Der Flyer zeigt auf einer Seite A4, was der schlafende Baum ist – zum Verschicken oder Ausdrucken.
+Die Flyer der anderen Hefte stehen auf der [Startseite](../#flyer-zum-weitergeben).
+
+<div class="flyer flyer-einzeln">
+<a class="flyer-karte" href="../flyer/schlafender-baum.pdf" download="flyer-schlafender-baum.pdf">
+  <img src="../flyer/schlafender-baum.webp" alt="" width="440" height="622" loading="lazy">
+  <span class="flyer-name">Der schlafende Baum</span>
+  <span class="flyer-art">PDF · eine Seite A4</span>
+</a>
+</div>
 
 ## Wenn etwas klemmt
 
