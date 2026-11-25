@@ -128,8 +128,8 @@ Je Heft ein Flyer, dazu einer für den Baum mit allen Heften und einer für die 
 Seite A4, zum Verschicken oder Ausdrucken.
 
 <div class="flyer">
-<a class="flyer-karte" href="flyer/pytree.pdf?v=2501f7dd" download="flyer-pytree.pdf">
-  <img src="flyer/pytree.webp?v=2501f7dd" alt="" width="440" height="622" loading="lazy">
+<a class="flyer-karte" href="flyer/pytree.pdf?v=1d3aef2b" download="flyer-pytree.pdf">
+  <img src="flyer/pytree.webp?v=1d3aef2b" alt="" width="440" height="622" loading="lazy">
   <span class="flyer-name">Der Baum und alle Hefte</span>
   <span class="flyer-art">PDF · eine Seite A4</span>
 </a>
