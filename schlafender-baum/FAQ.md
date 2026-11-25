@@ -60,10 +60,18 @@ Ein VS Code aus Flathub sieht das Python des Systems nur über Umwege. Nimm VS C
 ### Ohne Baum mitmachen
 
 Dafür gibt es die Erweiterung in einer Fassung mit dem [Baum am Bildschirm](index.md#der-baum-am-bildschirm). Er steht
-in VS Code neben deinem Programm und wird bedient wie der echte: Stecker, acht Schalter, zwei Knöpfe. Zwischen den
+in VS Code neben deinem Programm und wird bedient wie der echte: ein Knopf zum Ein- und Ausschalten, acht Schalter,
+zwei Knöpfe. Das nächste Türchen geht dort erst auf, wenn der Baum den Code des Tages angenommen hat. Zwischen den
 beiden Fassungen kannst du jederzeit wechseln; deine Lösungen und dein Fortschritt in VS Code bleiben. Jeder Baum
 merkt sich aber seinen eigenen Stand, auch der am Bildschirm. Was einer noch nicht kennt, gibst du ihm der Reihe nach
 ein; die Codes stehen in VS Code bei jedem gelösten Türchen.
+
+### Der Baum am Bildschirm bleibt stumm
+
+Unter Ubuntu spielt VS Code keinen Ton, wenn es als Snap installiert ist – so installiert es das App Center. Das liegt
+an VS Code, nicht am Baum. Unter dem Baum steht dann **Im Browser öffnen**: Dort steht derselbe Baum, mit Ton. Für
+immer hilft VS Code als `.deb` von [code.visualstudio.com](https://code.visualstudio.com/); deine Werkstatt bleibt,
+wie sie ist.
 
 ## Unterwegs
 
@@ -72,12 +80,12 @@ ein; die Codes stehen in VS Code bei jedem gelösten Türchen.
 - **Ganz links** steht eine schmale Leiste mit Symbolen. Das **Bäumchen** ist der Adventskalender, das Blatt-Symbol
   ganz oben der **Explorer** mit den Dateien deiner Werkstatt. Ein Klick öffnet den Bereich, ein zweiter klappt ihn zu.
 - **Daneben** steht, was zum Symbol gehört, beim Bäumchen die 24 Türchen: ⭐ ist gelöst, 🔒 geht auf, sobald das
-  vorige gelöst ist. Oben in dieser Spalte öffnet das Buch-Symbol das Heft als PDF, unter **…** gibt es die
-  **Startseite** mit allen Türchen.
+  vorige gelöst ist. Oben in dieser Spalte öffnet das Haus die **Startseite** mit allen Türchen, das Buch das Heft
+  als PDF.
 - **In der Mitte** steht die Aufgabe des Türchens mit **▶ Ausprobieren** und **✔ Prüfen**, weiter unten die Tipps,
   der Code des Tages und die Knöpfe zum vorigen und nächsten Türchen.
 - **Rechts** ist deine Datei, etwa `loesung_02.py`. Hier schreibst du dein Programm. Ausprobieren und Prüfen speichern
-  sie vorher selbst.
+  sie vorher selbst. Mit dem Baum am Bildschirm steht er ganz rechts daneben.
 - **Unten** liegt das **Terminal**. Dort läuft dein Programm, wenn du Ausprobieren drückst, und dort stehen seine
   Ausgaben und die Meldungen von Python.
 - **Ganz unten links** zeigt 🎄 mit einer Zahl, wie viele Türchen du gelöst hast. Ein Klick darauf öffnet das nächste.
