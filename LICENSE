@@ -23,4 +23,3 @@ Ausnahmen:
 - Schrift Alegreya (assets/schrift/): SIL Open Font License 1.1, Text in assets/schrift/OFL.txt.
 - Die Erweiterung bringt ihre Lizenz selbst mit (LICENSE.txt in der .vsix), dazu die Lizenzen der Bestandteile Dritter
   (THIRD_PARTY_LICENSES.md).
-- Die Releases bis einschließlich v0.5.0 stehen unter der MIT-Lizenz, deren Text in ihrer .vsix liegt.
