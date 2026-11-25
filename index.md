@@ -10,7 +10,7 @@ Für jedes neue Heft bleibt es derselbe Baum.
 
 <p class="video"><a href="https://www.youtube.com/shorts/s0iBclSiKpc">▶ Video: der Baum spielt „In der Halle des Bergkönigs“</a></p>
 
-## Ein Baum, fünf Hefte
+## Ein Baum, fünf Hefte, eine Werkstatt
 
 Hat dich ein Heft hierher geschickt? Hier geht es zu seiner Seite.
 
@@ -53,6 +53,14 @@ Hat dich ein Heft hierher geschickt? Hier geht es zu seiner Seite.
     <span class="heft-name">Eingeschneit auf der Hohen Wand</span>
     <span class="heft-art">Rätsel, mit Bleistift</span>
     <span class="heft-satz">Neun Leute sitzen oben am Berg im Schnee fest, und jeden Tag fehlt etwas. Mit Plan, Aussagen und Bleistift findest du heraus, wer es hat.</span>
+  </span>
+</a>
+<a class="heft" href="werkstatt/">
+  <img src="assets/titel/baum-werkstatt.svg" alt="Fünf Startbilder selbst gemachter Hefte, aufgefächert: der Baum, jedes Mal mit anderen Lichtern." width="480" height="240">
+  <span class="heft-text">
+    <span class="heft-name">Die Baum-Werkstatt</span>
+    <span class="heft-art">Ein eigenes Heft, im Browser</span>
+    <span class="heft-satz">Hier machst du selbst ein Heft für den Baum: was er an jedem der 24 Tage zeigt, welche Lichter, welche Lieder.</span>
   </span>
 </a>
 </div>
@@ -111,17 +119,6 @@ Ton, und er bleibt im Wahlmodus. Wer ohne Wahl hinaus will, zieht den Stecker; g
 
 Alles Weitere steht hinten in jedem Heft unter **Technik und Bedienung**.
 
-## Ein eigenes Heft
-
-In der [Baum-Werkstatt](werkstatt/) machst du selbst ein Heft für den Baum: was er an jedem der 24 Tage zeigt, welche
-Lichter, welche Lieder. Die Werkstatt läuft im Browser, ohne Konto, und dein Heft bleibt als Datei auf deinem Rechner.
-Die Codes der Tage würfelt sie, dein Heft bekommt ein eigenes Startbild samt Code für den Wahlmodus, und für das
-gedruckte Heft gibt es Vorlagen für Word und LibreOffice.
-
-- **Auf den Baum** kommt dein Heft aus Chrome oder Edge: den Baum aus dem Hügel nehmen, die Note halten und das Kabel
-  vom Rechner in die kleine Buchse unten am Stamm stecken. In anderen Browsern kannst du dein Heft bearbeiten und
-  speichern, aber nicht aufspielen.
-- **Einstellen** wie jedes Heft im Wahlmodus, mit dem Code unter deinem Startbild.
 
 <!-- FLYER: ERZEUGT von basis/flyer/auf_die_seite.py im Repo pytree – dort ändern und neu bauen. -->
 
