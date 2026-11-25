@@ -23,11 +23,15 @@ Ordner. Administratorrechte braucht es dafür nicht.
 
 - **Windows:**
   [installieren-windows.cmd](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/installieren-windows.cmd)
-  herunterladen und doppelklicken. Warnt Windows: **Weitere Informationen**, dann **Trotzdem ausführen**.
+  herunterladen und doppelklicken. Warnt Windows: **Weitere Informationen**, dann **Trotzdem ausführen**. Klappt der
+  Doppelklick nicht, geht es in der Eingabeaufforderung: **Windows-Taste** drücken, `cmd` eintippen, **Enter**, dann
+  `%USERPROFILE%\Downloads\installieren-windows.cmd` eintippen und **Enter** drücken.
 - **Linux:**
   [installieren-ubuntu.sh](https://github.com/tgd1975/pytree-adventskalender/releases/latest/download/installieren-ubuntu.sh)
-  herunterladen, mit **Strg+Alt+T** ein Terminal öffnen, `bash Downloads/installieren-ubuntu.sh` eintippen und
-  **Enter** drücken.
+  herunterladen. Dann im Ordner **Downloads** die Datei mit der rechten Maustaste anklicken, **Eigenschaften** wählen
+  und **Als Programm ausführbar** einschalten. Noch einmal rechts klicken und **Als Anwendung ausführen** wählen.
+  Fehlen diese Einträge (älteres Ubuntu, anderer Dateimanager), geht es im Terminal: mit **Strg+Alt+T** öffnen,
+  `bash ~/Downloads/installieren-ubuntu.sh` eintippen und **Enter** drücken.
 
 Danach startest du VS Code mit dem Symbol **Der schlafende Baum** auf dem Desktop. Wie es weitergeht, zeigt dir die
 Erweiterung. Gibt es im Dezember eine neue Fassung, führst du die Installationsdatei einfach noch einmal aus. Deine
