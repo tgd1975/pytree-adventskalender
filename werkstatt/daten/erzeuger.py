@@ -1,4 +1,4 @@
-"""Der Erzeuger: prüft ein Heft und übersetzt es für den Baum (Konzept docs/concepts/offen/zustandsautomat.md, Teil 3
+"""Der Erzeuger: prüft ein Heft und übersetzt es für den Baum (Konzept docs/concepts/erledigt/zustandsautomat.md, Teil 3
 „Was der Baum lädt“, Teil 4 „Auf dem Rechner: der Erzeuger“, Schnittstellen S2 bis S6).
 
 Ein eigenständiges Stück Python (S4): nur die Standardbibliothek, kein Zugriff auf Dateien. Was er braucht, bekommt
@@ -758,7 +758,9 @@ STUFE_SCHLUESSEL = {
     "on_correct_code": "die Vorführung nach dem richtigen Code, der auf diese Stufe führt: Bausteine",
     "on_repeat": "was Bestätigen lang auf dieser Stufe zeigt; ohne Angabe on_correct_code ohne den Piep, auf Stufe 0 "
                  "on_power_on",
-    "on_note_short": "was Note kurz im Ruhebild spielt: ein Baustein, meist play_song",
+    "on_note_short": "was Note kurz im Ruhebild spielt: ein Baustein, meist play_song – oder eine Vorführung (Liste "
+                     "von Bausteinen), in der replay_correct_code für die Vorführung nach dem Code steht, der zuletzt "
+                     "gegangen wurde (die Python-Hefte); ein Lied oder Signalton am Ende spielt danach im Ruhebild",
     "songbook": "das Liederbuch der Stufe: die Lieder, die Note lang reihum spielt",
 }
 SCHRITT_SCHLUESSEL = {
@@ -783,6 +785,9 @@ BAUSTEINE = {
     "dance_to_song": ({"song"}, "die Lichter folgen der Tonhöhe des Lieds, der Stern funkelt dazu"),
     "finale": (set(), "das Finale: von unten nach oben, die Spitze zuletzt, der Stern golden, das ganze O Tannenbaum"),
 }
+NOCHMAL = "replay_correct_code"  # nur in on_note_short als Liste: die Vorführung nach dem letzten Code, mit Piep
+NOCHMAL_TEXT = ("nur in on_note_short als Liste: die Vorführung nach dem Code, der zuletzt gegangen wurde, mit ihrem "
+                "Piep (am Baum eingesetzt, je nach Schritt)")
 STERN_LICHT = -1                # new_led und progress_leds: der Stern als Licht einer Stufe (ZE-A1)
 NOTE = ("stop_show", "stop_then_note", "skip_to_next", "skip_to_last", "ignore")
 RUHE = ("sleep", "wink", "breathe", "sparkle", "gold", "dark")
@@ -1026,6 +1031,27 @@ def erzeuge(heft, ablaeufe, lieder, codes, lichter, bibliothek, register, eigen=
             raise Fehler(stelle, "eine Liste von Bausteinen")
         return [baustein(b, s, "%s[%d]" % (stelle, i), st) for i, b in enumerate(werte)]
 
+    def note_kurz(wert, s, stelle, st):
+        """on_note_short: ein Baustein oder eine Vorführung; in ihr steht replay_correct_code für die Vorführung nach
+        dem Code, der zuletzt gegangen wurde (Nutzer 2026-11-24). In der Reihe hat Stufe 0 keinen Code davor. Endet die
+        Vorführung mit play_song oder play_signal, spielt das am Baum nach ihrem Ende im Ruhebild (main._musik)."""
+        if not isinstance(wert, list):
+            return baustein(wert, s, stelle, st)
+        if not wert:
+            raise Fehler(stelle, "eine leere Vorführung – ohne on_note_short tut die Note nichts")
+        aus = []
+        for i, b in enumerate(wert):
+            hier = "%s[%d]" % (stelle, i)
+            if isinstance(b, dict) and b.get("action") == NOCHMAL:
+                if set(b) - {"action"}:
+                    raise Fehler(hier, "%s kennt %s nicht" % (NOCHMAL, ", ".join(sorted(set(b) - {"action"}))))
+                if s == 0 and heft.get("transitions") is None:
+                    raise Fehler(hier, "%s: vor Stufe 0 gibt es keinen Code" % NOCHMAL)
+                aus.append({"action": NOCHMAL})
+            else:
+                aus.append(baustein(b, s, hier, st))
+        return aus
+
 
     neue = []
     baum_stufen = []
@@ -1070,7 +1096,7 @@ def erzeuge(heft, ablaeufe, lieder, codes, lichter, bibliothek, register, eigen=
             else:
                 bs["on_repeat"] = bs["on_power_on"]
             if st.get("on_note_short") is not None:
-                bs["on_note_short"] = baustein(st["on_note_short"], s, stelle + ".on_note_short", st)
+                bs["on_note_short"] = note_kurz(st["on_note_short"], s, stelle + ".on_note_short", st)
             buch = st.get("songbook", [])
             for name in buch:
                 if name not in alle_lieder:
@@ -1238,7 +1264,9 @@ def heft_ganz(baum_heft):
         for k in ("on_power_on", "on_correct_code", "on_repeat"):
             if k in st:
                 st[k] = [ganz(b, s, st) for b in st[k]]
-        if "on_note_short" in st:
+        if isinstance(st.get("on_note_short"), list):
+            st["on_note_short"] = [b if b["action"] == NOCHMAL else ganz(b, s, st) for b in st["on_note_short"]]
+        elif "on_note_short" in st:
             st["on_note_short"] = ganz(st["on_note_short"], s, st)
     h["stages"] = stufen
     h.pop("defaults", None)
@@ -1391,9 +1419,13 @@ def schema():
         "gap_ms": {"type": "integer", "description": "so lange das Grundbild zwischen zwei Schrittlisten"},
     }, "additionalProperties": False}
     liste = {"type": "array", "items": {"$ref": "#/$defs/action"}}
+    nochmal = {"type": "object", "required": ["action"], "additionalProperties": False,
+               "properties": {"action": {"const": NOCHMAL, "description": NOCHMAL_TEXT}}}
+    note_kurz = {"anyOf": [{"$ref": "#/$defs/action"},
+                           {"type": "array", "items": {"anyOf": [{"$ref": "#/$defs/action"}, nochmal]}}]}
     stufe = {"type": "object", "additionalProperties": False, "properties": {
         k: ({"$ref": "#/$defs/actions"} if k in ("on_power_on", "on_correct_code", "on_repeat")
-            else {"$ref": "#/$defs/action"} if k == "on_note_short"
+            else note_kurz if k == "on_note_short"
             else {"type": "array", "items": {"type": "string"}} if k == "songbook" else {})
         | {"description": t} for k, t in STUFE_SCHLUESSEL.items()}}
     heft = {

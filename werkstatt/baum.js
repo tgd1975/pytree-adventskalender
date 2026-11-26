@@ -1,5 +1,5 @@
 // Baum-Werkstatt – die Leitung zum Baum: Web Serial und MicroPythons raw REPL (Konzept
-// docs/concepts/offen/baum_werkstatt.md, „Aufspielen aus dem Browser auf den Baum“). Was dem Baum geschickt wird und
+// docs/concepts/erledigt/baum_werkstatt.md, „Aufspielen aus dem Browser auf den Baum“). Was dem Baum geschickt wird und
 // was er antworten muss, bestimmt werkstatt.py (aufspielen_schritte, baum_lage); hier nur der Weg dorthin.
 //
 // raw REPL wie mpremote: Strg-C unterbricht, Strg-A schaltet in den raw REPL (kein Soft-Reset – der startete main.py

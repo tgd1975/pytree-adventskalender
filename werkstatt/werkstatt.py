@@ -1,5 +1,5 @@
 """Die Baum-Werkstatt ohne Oberfläche: ein Heft öffnen, ändern, prüfen, speichern und für den Baum übersetzen (Konzept
-docs/concepts/offen/baum_werkstatt.md, „Wie die Werkstatt gebaut ist“).
+docs/concepts/erledigt/baum_werkstatt.md, „Wie die Werkstatt gebaut ist“).
 
 Läuft unverändert im Browser (Pyodide) und am Rechner (CPython) – so prüfen die Tests am Rechner genau den Code, den
 die Seite ausführt. Geprüft und übersetzt wird nur mit dem Erzeuger (firmware/erzeuger.py), nie mit nachgebauten Regeln
@@ -21,7 +21,8 @@ import re
 
 VORGABE_STUFEN = 25
 STUECK = 1024              # Bytes einer Datei je Befehl an den Baum
-RESERVE_BLOECKE = 4        # was das Dateisystem des Baums beim Kopieren für Ordner und Verwaltung braucht (geschätzt)
+RESERVE_BLOECKE = 6        # was das Dateisystem des Baums für Ordner und Verwaltung braucht: das erste eigene Heft
+                           # belegte am Baum 9 Blöcke statt der 4 seiner Dateien (gemessen 2026-11-19, Baum 2)
 NAME_EIGEN = re.compile(r"^muster_[0-9][0-9]$")
 
 # Was die Werkstatt den Baum fragt (Aufspielen, Schritt 3): Fassung und Format der Basis (S3), die eigenen Hefte mit

@@ -1,7 +1,7 @@
 // Baum-Werkstatt – die Oberfläche. Prüfen, Übersetzen und Speichern macht werkstatt.py mit dem Erzeuger der Firmware,
 // im Browser unter Pyodide (HE-9: kein zweiter Erzeuger in JavaScript). Was es an Lichtern, Bausteinen, Anweisungen,
 // Liedern gibt und was ein Schlüssel bedeutet, fragt die Seite den Erzeuger und sein Schema (S5) – sie kennt den Baum
-// nicht auswendig. Konzept: docs/concepts/offen/baum_werkstatt.md.
+// nicht auswendig. Konzept: docs/concepts/erledigt/baum_werkstatt.md.
 "use strict";
 
 const W = { py: null, stand: null, auskunft: null, modus: "eigene", handle: null, dateiname: null, teil: "steckbrief",

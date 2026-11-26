@@ -1,5 +1,5 @@
 {
-  "description": "Die Liedbibliothek für alle Hefte (Konzept docs/concepts/offen/zustandsautomat.md, „Die Liedbibliothek“). Ein Heft nennt ein Lied beim Namen; der Erzeuger übersetzt die Noten für den Baum. Prüfung der Lieder: Skill lieder.",
+  "description": "Die Liedbibliothek für alle Hefte (Konzept docs/concepts/erledigt/zustandsautomat.md, „Die Liedbibliothek“). Ein Heft nennt ein Lied beim Namen; der Erzeuger übersetzt die Noten für den Baum. Prüfung der Lieder: Skill lieder.",
   "songs": {
     "o_tannenbaum": {
       "title": "O Tannenbaum",
