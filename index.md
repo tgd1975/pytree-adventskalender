@@ -1,5 +1,7 @@
 # pytree
 
+<!-- KOPF: ERZEUGT von basis/seite/baue_startseite.py im Repo pytree aus basis/seite/startseite.toml – dort ändern und neu bauen. -->
+
 *Ein Baum, viele Hefte.*
 
 Ein kleiner Baum aus Leiterplatten, mit dreißig Lichtern, einem Stern und einer Stimme. Zu ihm gehören Hefte, jedes
@@ -64,6 +66,7 @@ Hat dich ein Heft hierher geschickt? Hier geht es zu seiner Seite.
   </span>
 </a>
 </div>
+<!-- /KOPF -->
 
 ## Welches Heft ist eingestellt?
 
